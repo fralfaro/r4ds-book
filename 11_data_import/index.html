@@ -505,6 +505,61 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-data-from-a-file" class="md-nav__link">
+    Reading data from a file
+  </a>
+  
+    <nav class="md-nav" aria-label="Reading data from a file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-steps" class="md-nav__link">
+    First steps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compared-to-base-r" class="md-nav__link">
+    Compared to base R
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    Exercises
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-data-from-multiple-files" class="md-nav__link">
+    Reading data from multiple files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-to-a-file" class="md-nav__link">
+    Writing to a file
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -931,6 +986,61 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-data-from-a-file" class="md-nav__link">
+    Reading data from a file
+  </a>
+  
+    <nav class="md-nav" aria-label="Reading data from a file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-steps" class="md-nav__link">
+    First steps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compared-to-base-r" class="md-nav__link">
+    Compared to base R
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    Exercises
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-data-from-multiple-files" class="md-nav__link">
+    Reading data from multiple files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-to-a-file" class="md-nav__link">
+    Writing to a file
+  </a>
   
 </li>
       
@@ -2004,22 +2114,72 @@ Here, we'll only scratch the surface of data import, but many of the principles 
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| label: setup
-#| message: false
-
-library(tidyverse)</code></pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-1">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+</pre></div>
+<div id="cell-1" class="clipboard-copy-txt">library(tidyverse)</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>Warning message in system(&#34;timedatectl&#34;, intern = TRUE):
+“running command &#39;timedatectl&#39; had status 1”
+── <span class="ansi-bold">Attaching packages</span> ─────────────────────────────────────── tidyverse 1.3.1 ──
+
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">ggplot2</span> 3.3.6     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">purrr  </span> 0.3.4
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">tibble </span> 3.1.7     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">dplyr  </span> 1.0.9
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">tidyr  </span> 1.2.0     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">stringr</span> 1.4.0
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">readr  </span> 2.1.2     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">forcats</span> 0.5.1
+
+── <span class="ansi-bold">Conflicts</span> ────────────────────────────────────────── tidyverse_conflicts() ──
+<span class="ansi-red-fg">✖</span> <span class="ansi-blue-fg">dplyr</span>::<span class="ansi-green-fg">filter()</span> masks <span class="ansi-blue-fg">stats</span>::filter()
+<span class="ansi-red-fg">✖</span> <span class="ansi-blue-fg">dplyr</span>::<span class="ansi-green-fg">lag()</span>    masks <span class="ansi-blue-fg">stats</span>::lag()
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2048,22 +2208,66 @@ Not only are csv files one of the most common forms of data storage, but once yo
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| echo: false
-#| message: false
-
-read_lines("data/students.csv") |&gt; cat(sep = "\n")</code></pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-2">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_lines</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv&quot;</span><span class="p">)</span> <span class="o">|&gt;</span> <span class="n">cat</span><span class="p">(</span><span class="n">sep</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+<div id="cell-2" class="clipboard-copy-txt">read_lines("https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv") |> cat(sep = "\n")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Student ID,Full Name,favourite.food,mealPlan,AGE
+1,Sunil Huffmann,Strawberry yoghurt,Lunch only,4
+2,Barclay Lynn,French fries,Lunch only,5
+3,Jayendra Lyne,N/A,Breakfast and lunch,7
+4,Leon Rossini,Anchovies,Lunch only,
+5,Chidiegwu Dunkel,Pizza,Breakfast and lunch,five
+6,Güvenç Attila,Ice cream,Lunch only,6
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2078,25 +2282,74 @@ read_lines("data/students.csv") |&gt; cat(sep = "\n")</code></pre>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| label: tbl-students-table
-#| echo: false
-#| message: false
-#| tbl-cap: Data from the students.csv file as a table.
-
-read_csv("data/students.csv") |&gt;
-  knitr::kable()</code></pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-3">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_lines</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv&quot;</span><span class="p">)</span>  <span class="o">|&gt;</span>
+  <span class="n">knitr</span><span class="p">::</span><span class="n">kable</span><span class="p">()</span>
+</pre></div>
+<div id="cell-3" class="clipboard-copy-txt">read_lines("https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv")  |>
+  knitr::kable()</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>
+
+|x                                                 |
+|:-------------------------------------------------|
+|Student ID,Full Name,favourite.food,mealPlan,AGE  |
+|1,Sunil Huffmann,Strawberry yoghurt,Lunch only,4  |
+|2,Barclay Lynn,French fries,Lunch only,5          |
+|3,Jayendra Lyne,N/A,Breakfast and lunch,7         |
+|4,Leon Rossini,Anchovies,Lunch only,              |
+|5,Chidiegwu Dunkel,Pizza,Breakfast and lunch,five |
+|6,Güvenç Attila,Ice cream,Lunch only,6            |</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2110,21 +2363,67 @@ read_csv("data/students.csv") |&gt;
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| message: true
-
-students &lt;- read_csv("data/students.csv")</code></pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-4">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">students</span> <span class="o">&lt;-</span> <span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv&quot;</span><span class="p">)</span>
+</pre></div>
+<div id="cell-4" class="clipboard-copy-txt">students <- read_csv("https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">6</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">5</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-red-fg">chr</span> (4): Full Name, favourite.food, mealPlan, AGE
+<span class="ansi-green-fg">dbl</span> (1): Student ID
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2142,23 +2441,94 @@ This is useful for experimenting with readr and for creating reproducible exampl
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| message: false
-
-read_csv("a,b,c
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-5">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;a,b,c</span>
+<span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span>
+<span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="s2">&quot;)</span>
+</pre></div>
+<div id="cell-5" class="clipboard-copy-txt">read_csv("a,b,c
 1,2,3
-4,5,6")</code></pre>
+4,5,6")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">2</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">3</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-green-fg">dbl</span> (3): a, b, c
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 2 × 3</caption>
+<thead>
+	<tr><th scope=col>a</th><th scope=col>b</th><th scope=col>c</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>2</td><td>3</td></tr>
+	<tr><td>4</td><td>5</td><td>6</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2177,29 +2547,144 @@ You can use <code>skip = n</code> to skip the first <code>n</code> lines; or use
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-6">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;The first line of metadata</span>
+  <span class="n">The</span> <span class="n">second</span> <span class="n">line</span> <span class="n">of</span> <span class="n">metadata</span>
+  <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span>
+  <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="s2">&quot;, skip = 2)</span>
 
-<pre><code>```{r}
-#| message: false
-
-read_csv("The first line of metadata
+<span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;# A comment I want to skip</span>
+  <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span>
+  <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="s2">&quot;, comment = &quot;</span><span class="c1">#&quot;)</span>
+</pre></div>
+<div id="cell-6" class="clipboard-copy-txt">read_csv("The first line of metadata
   The second line of metadata
   x,y,z
   1,2,3", skip = 2)
 
 read_csv("# A comment I want to skip
   x,y,z
-  1,2,3", comment = "#")
-```</code></pre>
+  1,2,3", comment = "#")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">1</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">3</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-green-fg">dbl</span> (3): x, y, z
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 1 × 3</caption>
+<thead>
+	<tr><th scope=col>x</th><th scope=col>y</th><th scope=col>z</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>2</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">1</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">3</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-green-fg">dbl</span> (3): x, y, z
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 1 × 3</caption>
+<thead>
+	<tr><th scope=col>x</th><th scope=col>y</th><th scope=col>z</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>2</td><td>3</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2216,6 +2701,91 @@ You can use <code>col_names = FALSE</code> to tell <code>read_csv()</code> not t
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-7">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;1,2,3</span><span class="se">\n</span><span class="s2">4,5,6&quot;</span><span class="p">,</span> <span class="n">col_names</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span>
+</pre></div>
+<div id="cell-7" class="clipboard-copy-txt">read_csv("1,2,3\n4,5,6", col_names = FALSE)</div>
+    
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">2</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">3</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-green-fg">dbl</span> (3): X1, X2, X3
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 2 × 3</caption>
+<thead>
+	<tr><th scope=col>X1</th><th scope=col>X2</th><th scope=col>X3</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>2</td><td>3</td></tr>
+	<tr><td>4</td><td>5</td><td>6</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -2223,47 +2793,97 @@ You can use <code>col_names = FALSE</code> to tell <code>read_csv()</code> not t
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>```{r}
-#| message: false
-
-read_csv("1,2,3\n4,5,6", col_names = FALSE)
-```</code></pre>
+<p>(<code>"\n"</code> is a convenient shortcut for adding a new line. You'll learn more about it and other types of string escape in [Chapter -@sec-strings].)</p>
+<p>Alternatively you can pass <code>col_names</code> a character vector which will be used as the column names:</p>
 
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-8">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;1,2,3</span><span class="se">\n</span><span class="s2">4,5,6&quot;</span><span class="p">,</span> <span class="n">col_names</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="s2">&quot;z&quot;</span><span class="p">))</span>
+</pre></div>
+<div id="cell-8" class="clipboard-copy-txt">read_csv("1,2,3\n4,5,6", col_names = c("x", "y", "z"))
+</div>
+    
+        </div>
+    </div>
 
-<pre><code>(`"\n"` is a convenient shortcut for adding a new line. You'll learn more about it and other types of string escape in [Chapter -@sec-strings].)
+</div>
+</div>
 
-Alternatively you can pass `col_names` a character vector which will be used as the column names:</code></pre>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">2</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">3</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-green-fg">dbl</span> (3): x, y, z
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 2 × 3</caption>
+<thead>
+	<tr><th scope=col>x</th><th scope=col>y</th><th scope=col>z</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>2</td><td>3</td></tr>
+	<tr><td>4</td><td>5</td><td>6</td></tr>
+</tbody>
+</table>
 
 </div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>```{r}
-#| message: false
-
-read_csv("1,2,3\n4,5,6", col_names = c("x", "y", "z"))
-```</code></pre>
 
 </div>
+
 </div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2277,21 +2897,90 @@ read_csv("1,2,3\n4,5,6", col_names = c("x", "y", "z"))
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| message: false
-
-read_csv("a,b,c\n1,2,.", na = ".")</code></pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-9">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;a,b,c</span><span class="se">\n</span><span class="s2">1,2,.&quot;</span><span class="p">,</span> <span class="n">na</span> <span class="o">=</span> <span class="s2">&quot;.&quot;</span><span class="p">)</span>
+</pre></div>
+<div id="cell-9" class="clipboard-copy-txt">read_csv("a,b,c\n1,2,.", na = ".")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">1</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">3</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-green-fg">dbl</span> (2): a, b
+<span class="ansi-yellow-fg">lgl</span> (1): c
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 1 × 3</caption>
+<thead>
+	<tr><th scope=col>a</th><th scope=col>b</th><th scope=col>c</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;lgl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>2</td><td>NA</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2310,23 +2999,99 @@ This is something we can address using the <code>na</code> argument.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-10">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">students</span> <span class="o">&lt;-</span> <span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv&quot;</span><span class="p">,</span> <span class="n">na</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s2">&quot;N/A&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">))</span>
 
-<pre><code>{r}
-#| message: false
+<span class="n">students</span>
+</pre></div>
+<div id="cell-10" class="clipboard-copy-txt">students <- read_csv("https://raw.githubusercontent.com/hadley/r4ds/main/data/students.csv", na = c("N/A", ""))
 
-students &lt;- read_csv("data/students.csv", na = c("N/A", ""))
-
-students</code></pre>
+students</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">6</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">5</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-red-fg">chr</span> (4): Full Name, favourite.food, mealPlan, AGE
+<span class="ansi-green-fg">dbl</span> (1): Student ID
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 6 × 5</caption>
+<thead>
+	<tr><th scope=col>Student ID</th><th scope=col>Full Name</th><th scope=col>favourite.food</th><th scope=col>mealPlan</th><th scope=col>AGE</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>Sunil Huffmann  </td><td>Strawberry yoghurt</td><td>Lunch only         </td><td>4   </td></tr>
+	<tr><td>2</td><td>Barclay Lynn    </td><td>French fries      </td><td>Lunch only         </td><td>5   </td></tr>
+	<tr><td>3</td><td>Jayendra Lyne   </td><td>NA                </td><td>Breakfast and lunch</td><td>7   </td></tr>
+	<tr><td>4</td><td>Leon Rossini    </td><td>Anchovies         </td><td>Lunch only         </td><td>NA  </td></tr>
+	<tr><td>5</td><td>Chidiegwu Dunkel</td><td>Pizza             </td><td>Breakfast and lunch</td><td>five</td></tr>
+	<tr><td>6</td><td>Güvenç Attila   </td><td>Ice cream         </td><td>Lunch only         </td><td>6   </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2348,23 +3113,108 @@ This function takes in a data frame and returns a data frame with variable names
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-#| message: false
-
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-11">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;janitor&quot;</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">janitor</span><span class="p">)</span>
+<span class="n">students</span> <span class="o">|&gt;</span>
+  <span class="n">clean_names</span><span class="p">()</span>
+</pre></div>
+<div id="cell-11" class="clipboard-copy-txt">install.packages("janitor")
 library(janitor)
-students |&gt;
-  clean_names()</code></pre>
+students |>
+  clean_names()</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+
+also installing the dependency ‘snakecase’
+
+
+
+Attaching package: ‘janitor’
+
+
+The following objects are masked from ‘package:stats’:
+
+    chisq.test, fisher.test
+
+
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 6 × 5</caption>
+<thead>
+	<tr><th scope=col>student_id</th><th scope=col>full_name</th><th scope=col>favourite_food</th><th scope=col>meal_plan</th><th scope=col>age</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>Sunil Huffmann  </td><td>Strawberry yoghurt</td><td>Lunch only         </td><td>4   </td></tr>
+	<tr><td>2</td><td>Barclay Lynn    </td><td>French fries      </td><td>Lunch only         </td><td>5   </td></tr>
+	<tr><td>3</td><td>Jayendra Lyne   </td><td>NA                </td><td>Breakfast and lunch</td><td>7   </td></tr>
+	<tr><td>4</td><td>Leon Rossini    </td><td>Anchovies         </td><td>Lunch only         </td><td>NA  </td></tr>
+	<tr><td>5</td><td>Chidiegwu Dunkel</td><td>Pizza             </td><td>Breakfast and lunch</td><td>five</td></tr>
+	<tr><td>6</td><td>Güvenç Attila   </td><td>Ice cream         </td><td>Lunch only         </td><td>6   </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2382,23 +3232,84 @@ You'll learn more about factors in [Chapter -@sec-factors].</p>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-12">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">students</span> <span class="o">&lt;-</span> <span class="n">students</span> <span class="o">|&gt;</span>
+  <span class="n">clean_names</span><span class="p">()</span> <span class="o">|&gt;</span>
+  <span class="n">mutate</span><span class="p">(</span><span class="n">meal_plan</span> <span class="o">=</span> <span class="n">factor</span><span class="p">(</span><span class="n">meal_plan</span><span class="p">))</span>
 
-<pre><code>{r}
-students &lt;- students |&gt;
-  clean_names() |&gt;
+<span class="n">students</span>
+</pre></div>
+<div id="cell-12" class="clipboard-copy-txt">students <- students |>
+  clean_names() |>
   mutate(meal_plan = factor(meal_plan))
 
-students</code></pre>
+students</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A tibble: 6 × 5</caption>
+<thead>
+	<tr><th scope=col>student_id</th><th scope=col>full_name</th><th scope=col>favourite_food</th><th scope=col>meal_plan</th><th scope=col>age</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>Sunil Huffmann  </td><td>Strawberry yoghurt</td><td>Lunch only         </td><td>4   </td></tr>
+	<tr><td>2</td><td>Barclay Lynn    </td><td>French fries      </td><td>Lunch only         </td><td>5   </td></tr>
+	<tr><td>3</td><td>Jayendra Lyne   </td><td>NA                </td><td>Breakfast and lunch</td><td>7   </td></tr>
+	<tr><td>4</td><td>Leon Rossini    </td><td>Anchovies         </td><td>Lunch only         </td><td>NA  </td></tr>
+	<tr><td>5</td><td>Chidiegwu Dunkel</td><td>Pizza             </td><td>Breakfast and lunch</td><td>five</td></tr>
+	<tr><td>6</td><td>Güvenç Attila   </td><td>Ice cream         </td><td>Lunch only         </td><td>6   </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2446,16 +3357,12 @@ Base R functions inherit some behavior from your operating system and environmen
 <li><p>Sometimes strings in a CSV file contain commas.
 To prevent them from causing problems they need to be surrounded by a quoting character, like <code>"</code> or <code>'</code>. By default, <code>read_csv()</code> assumes that the quoting character will be <code>"</code>.
 What argument to <code>read_csv()</code> do you need to specify to read the following text into a data frame?</p>
-<div class="highlight"><pre><span></span><span class="c1">#| eval: false</span>
-
-<span class="s">&quot;x,y\n1,&#39;a,b&#39;&quot;</span>
+<div class="highlight"><pre><span></span><span class="s">&quot;x,y\n1,&#39;a,b&#39;&quot;</span>
 </pre></div>
 </li>
 <li><p>Identify what is wrong with each of the following inline CSV files.
 What happens when you run the code?</p>
-<div class="highlight"><pre><span></span><span class="c1">#| eval: false</span>
-
-<span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;a,b\n1,2,3\n4,5,6&quot;</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;a,b\n1,2,3\n4,5,6&quot;</span><span class="p">)</span>
 <span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;a,b,c\n1,2\n1,2,3,4&quot;</span><span class="p">)</span>
 <span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;a,b\n\&quot;1&quot;</span><span class="p">)</span>
 <span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;a,b\n1,2\na,b&quot;</span><span class="p">)</span>
@@ -2470,20 +3377,118 @@ With <code>read_csv()</code> you can read these data in at once and stack them o
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-sales_files &lt;- c("data/01-sales.csv", "data/02-sales.csv", "data/03-sales.csv")
-read_csv(sales_files, id = "file")</code></pre>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-13">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">sales_files</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span>
+  <span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv&quot;</span><span class="p">,</span> 
+  <span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv&quot;</span>
+   <span class="p">)</span>
+<span class="n">read_csv</span><span class="p">(</span><span class="n">sales_files</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s2">&quot;file&quot;</span><span class="p">)</span>
+</pre></div>
+<div id="cell-13" class="clipboard-copy-txt">sales_files <- c(
+  "https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv", 
+  "https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv",
+  "https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv"
+   )
+read_csv(sales_files, id = "file")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">19</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">6</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-red-fg">chr</span> (1): month
+<span class="ansi-green-fg">dbl</span> (4): year, brand, item, n
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 19 × 6</caption>
+<thead>
+	<tr><th scope=col>file</th><th scope=col>month</th><th scope=col>year</th><th scope=col>brand</th><th scope=col>item</th><th scope=col>n</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>1</td><td>1234</td><td>3</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>1</td><td>8721</td><td>9</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>1</td><td>1822</td><td>2</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>2</td><td>3333</td><td>1</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>2</td><td>2156</td><td>9</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>2</td><td>3987</td><td>6</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/01-sales.csv</td><td>January </td><td>2019</td><td>2</td><td>3827</td><td>6</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv</td><td>February</td><td>2019</td><td>1</td><td>1234</td><td>8</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv</td><td>February</td><td>2019</td><td>1</td><td>8721</td><td>2</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv</td><td>February</td><td>2019</td><td>1</td><td>1822</td><td>3</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv</td><td>February</td><td>2019</td><td>2</td><td>3333</td><td>1</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv</td><td>February</td><td>2019</td><td>2</td><td>2156</td><td>3</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/02-sales.csv</td><td>February</td><td>2019</td><td>2</td><td>3987</td><td>6</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv</td><td>March   </td><td>2019</td><td>1</td><td>1234</td><td>3</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv</td><td>March   </td><td>2019</td><td>1</td><td>3627</td><td>1</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv</td><td>March   </td><td>2019</td><td>1</td><td>8820</td><td>3</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv</td><td>March   </td><td>2019</td><td>2</td><td>7253</td><td>1</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv</td><td>March   </td><td>2019</td><td>2</td><td>8766</td><td>3</td></tr>
+	<tr><td>https://raw.githubusercontent.com/hadley/r4ds/main/data/03-sales.csv</td><td>March   </td><td>2019</td><td>2</td><td>8288</td><td>6</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2507,11 +3512,10 @@ Instead, you can use the <code>dir_ls()</code> function from the <a href="https:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-<pre><code>{r}
-library(fs)
-sales_files &lt;- dir_ls("data", glob = "*sales.csv")
-sales_files</code></pre>
+<div class="highlight"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">fs</span><span class="p">)</span>
+<span class="n">sales_files</span> <span class="o">&lt;-</span> <span class="nf">dir_ls</span><span class="p">(</span><span class="s">&quot;data&quot;</span><span class="p">,</span> <span class="n">glob</span> <span class="o">=</span> <span class="s">&quot;*sales.csv&quot;</span><span class="p">)</span>
+<span class="n">sales_files</span>
+</pre></div>
 
 </div>
 </div>
@@ -2538,18 +3542,37 @@ You can also specify how missing values are written with <code>na</code>, and if
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="nf">write_csv</span><span class="p">(</span><span class="n">students</span><span class="p">,</span> <span class="s">&quot;students.csv&quot;</span><span class="p">)</span>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-14">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">write_csv</span><span class="p">(</span><span class="n">students</span><span class="p">,</span> <span class="s2">&quot;students.csv&quot;</span><span class="p">)</span>
 </pre></div>
+<div id="cell-14" class="clipboard-copy-txt">write_csv(students, "students.csv")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -2564,20 +3587,127 @@ Note that the type information is lost when you save to csv:</p>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="n">students</span>
-<span class="nf">write_csv</span><span class="p">(</span><span class="n">students</span><span class="p">,</span> <span class="s">&quot;students-2.csv&quot;</span><span class="p">)</span>
-<span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;students-2.csv&quot;</span><span class="p">)</span>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+        
+        
+        <div class="CodeMirror cm-s-jupyter">
+        <div class="zeroclipboard-container">
+            <clipboard-copy for="cell-15">
+            <div>
+                <span class="notice" hidden>Copied!</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
+                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+                </svg>
+                </div>
+            </clipboard-copy>
+        </div>
+            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">students</span>
+<span class="n">write_csv</span><span class="p">(</span><span class="n">students</span><span class="p">,</span> <span class="s2">&quot;students-2.csv&quot;</span><span class="p">)</span>
+<span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;students-2.csv&quot;</span><span class="p">)</span>
 </pre></div>
+<div id="cell-15" class="clipboard-copy-txt">students
+write_csv(students, "students-2.csv")
+read_csv("students-2.csv")</div>
+    
+        </div>
+    </div>
 
 </div>
 </div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A tibble: 6 × 5</caption>
+<thead>
+	<tr><th scope=col>student_id</th><th scope=col>full_name</th><th scope=col>favourite_food</th><th scope=col>meal_plan</th><th scope=col>age</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>Sunil Huffmann  </td><td>Strawberry yoghurt</td><td>Lunch only         </td><td>4   </td></tr>
+	<tr><td>2</td><td>Barclay Lynn    </td><td>French fries      </td><td>Lunch only         </td><td>5   </td></tr>
+	<tr><td>3</td><td>Jayendra Lyne   </td><td>NA                </td><td>Breakfast and lunch</td><td>7   </td></tr>
+	<tr><td>4</td><td>Leon Rossini    </td><td>Anchovies         </td><td>Lunch only         </td><td>NA  </td></tr>
+	<tr><td>5</td><td>Chidiegwu Dunkel</td><td>Pizza             </td><td>Breakfast and lunch</td><td>five</td></tr>
+	<tr><td>6</td><td>Güvenç Attila   </td><td>Ice cream         </td><td>Lunch only         </td><td>6   </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre><span class="ansi-bold">Rows: </span><span class="ansi-blue-fg">6</span> <span class="ansi-bold">Columns: </span><span class="ansi-blue-fg">5</span>
+<span class="ansi-cyan-fg">──</span> <span class="ansi-bold">Column specification</span> <span class="ansi-cyan-fg">────────────────────────────────────────────────────────</span>
+<span class="ansi-bold">Delimiter:</span> &#34;,&#34;
+<span class="ansi-red-fg">chr</span> (4): full_name, favourite_food, meal_plan, age
+<span class="ansi-green-fg">dbl</span> (1): student_id
+
+<span class="ansi-cyan-fg">ℹ</span> Use `spec()` to retrieve the full column specification for this data.
+<span class="ansi-cyan-fg">ℹ</span> Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table class="dataframe">
+<caption>A spec_tbl_df: 6 × 5</caption>
+<thead>
+	<tr><th scope=col>student_id</th><th scope=col>full_name</th><th scope=col>favourite_food</th><th scope=col>meal_plan</th><th scope=col>age</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>Sunil Huffmann  </td><td>Strawberry yoghurt</td><td>Lunch only         </td><td>4   </td></tr>
+	<tr><td>2</td><td>Barclay Lynn    </td><td>French fries      </td><td>Lunch only         </td><td>5   </td></tr>
+	<tr><td>3</td><td>Jayendra Lyne   </td><td>NA                </td><td>Breakfast and lunch</td><td>7   </td></tr>
+	<tr><td>4</td><td>Leon Rossini    </td><td>Anchovies         </td><td>Lunch only         </td><td>NA  </td></tr>
+	<tr><td>5</td><td>Chidiegwu Dunkel</td><td>Pizza             </td><td>Breakfast and lunch</td><td>five</td></tr>
+	<tr><td>6</td><td>Güvenç Attila   </td><td>Ice cream         </td><td>Lunch only         </td><td>6   </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
