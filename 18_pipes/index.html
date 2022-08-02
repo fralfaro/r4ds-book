@@ -19,7 +19,7 @@
     
     
       
-        <title>Introducción Ciencia de Datos - Home</title>
+        <title>Pipes - Home</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduccion-ciencia-de-datos" class="md-skip">
+        <a href="#pipes" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introducción Ciencia de Datos
+              Pipes
             
           </span>
         </div>
@@ -594,12 +594,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Introducción Ciencia de Datos
+          Pipes
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Introducción Ciencia de Datos
+        Pipes
       </a>
       
         
@@ -618,23 +618,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#nuestra-primera-investigacion-el-precio-de-las-propiedades-en-caba" class="md-nav__link">
-    Nuestra primera investigación: el precio de las propiedades en CABA
+  <a href="#introduction" class="md-nav__link">
+    Introduction
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conociendo-rstudio" class="md-nav__link">
-    Conociendo RStudio
-  </a>
-  
-    <nav class="md-nav" aria-label="Conociendo RStudio">
+    <nav class="md-nav" aria-label="Introduction">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#proyectos-en-rstudio" class="md-nav__link">
-    Proyectos en RStudio
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
   </a>
   
 </li>
@@ -645,16 +638,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#importando-datos-a-r" class="md-nav__link">
-    Importando datos a R
+  <a href="#piping-alternatives" class="md-nav__link">
+    Piping alternatives
   </a>
   
-    <nav class="md-nav" aria-label="Importando datos a R">
+    <nav class="md-nav" aria-label="Piping alternatives">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#comma-separated-values" class="md-nav__link">
-    Comma Separated Values
+  <a href="#intermediate-steps" class="md-nav__link">
+    Intermediate steps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overwrite-the-original" class="md-nav__link">
+    Overwrite the original
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-composition" class="md-nav__link">
+    Function composition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-the-pipe" class="md-nav__link">
+    Use the pipe
   </a>
   
 </li>
@@ -665,77 +679,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-r-organiza-los-datos" class="md-nav__link">
-    ¿Cómo R organiza los datos?
-  </a>
-  
-    <nav class="md-nav" aria-label="¿Cómo R organiza los datos?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#vectores" class="md-nav__link">
-    Vectores
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#listas-y-data-frames" class="md-nav__link">
-    Listas y Data Frames
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inspeccionando-nuestros-datos" class="md-nav__link">
-    Inspeccionando nuestros datos
+  <a href="#when-not-to-use-the-pipe" class="md-nav__link">
+    When not to use the pipe
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#retomando-nuestro-ejercicio-cuanto-aumentaron-las-viviendas" class="md-nav__link">
-    Retomando nuestro ejercicio: ¿Cuánto aumentaron las viviendas?
+  <a href="#other-tools-from-magrittr" class="md-nav__link">
+    Other tools from magrittr
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusiones" class="md-nav__link">
-    Conclusiones
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ejercicios" class="md-nav__link">
-    Ejercicios
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extension-cargando-y-guardando-datos-de-otros-formatos" class="md-nav__link">
-    Extensión: cargando y guardando datos de otros formatos
-  </a>
-  
-    <nav class="md-nav" aria-label="Extensión: cargando y guardando datos de otros formatos">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#microsoft-excel" class="md-nav__link">
-    Microsoft Excel
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1017,23 +970,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#nuestra-primera-investigacion-el-precio-de-las-propiedades-en-caba" class="md-nav__link">
-    Nuestra primera investigación: el precio de las propiedades en CABA
+  <a href="#introduction" class="md-nav__link">
+    Introduction
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conociendo-rstudio" class="md-nav__link">
-    Conociendo RStudio
-  </a>
-  
-    <nav class="md-nav" aria-label="Conociendo RStudio">
+    <nav class="md-nav" aria-label="Introduction">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#proyectos-en-rstudio" class="md-nav__link">
-    Proyectos en RStudio
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
   </a>
   
 </li>
@@ -1044,16 +990,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#importando-datos-a-r" class="md-nav__link">
-    Importando datos a R
+  <a href="#piping-alternatives" class="md-nav__link">
+    Piping alternatives
   </a>
   
-    <nav class="md-nav" aria-label="Importando datos a R">
+    <nav class="md-nav" aria-label="Piping alternatives">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#comma-separated-values" class="md-nav__link">
-    Comma Separated Values
+  <a href="#intermediate-steps" class="md-nav__link">
+    Intermediate steps
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overwrite-the-original" class="md-nav__link">
+    Overwrite the original
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-composition" class="md-nav__link">
+    Function composition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-the-pipe" class="md-nav__link">
+    Use the pipe
   </a>
   
 </li>
@@ -1064,77 +1031,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-r-organiza-los-datos" class="md-nav__link">
-    ¿Cómo R organiza los datos?
-  </a>
-  
-    <nav class="md-nav" aria-label="¿Cómo R organiza los datos?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#vectores" class="md-nav__link">
-    Vectores
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#listas-y-data-frames" class="md-nav__link">
-    Listas y Data Frames
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inspeccionando-nuestros-datos" class="md-nav__link">
-    Inspeccionando nuestros datos
+  <a href="#when-not-to-use-the-pipe" class="md-nav__link">
+    When not to use the pipe
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#retomando-nuestro-ejercicio-cuanto-aumentaron-las-viviendas" class="md-nav__link">
-    Retomando nuestro ejercicio: ¿Cuánto aumentaron las viviendas?
+  <a href="#other-tools-from-magrittr" class="md-nav__link">
+    Other tools from magrittr
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusiones" class="md-nav__link">
-    Conclusiones
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ejercicios" class="md-nav__link">
-    Ejercicios
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extension-cargando-y-guardando-datos-de-otros-formatos" class="md-nav__link">
-    Extensión: cargando y guardando datos de otros formatos
-  </a>
-  
-    <nav class="md-nav" aria-label="Extensión: cargando y guardando datos de otros formatos">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#microsoft-excel" class="md-nav__link">
-    Microsoft Excel
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -2188,7 +2094,7 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><a href="https://colab.research.google.com/github/fralfaro/CienciaDeDatosClases/blob/main/docs/01_introduccion.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
+<p><a href="https://colab.research.google.com/github/fralfaro/r4ds-book/blob/main/docs/18_pipes.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
 
 </div>
 </div>
@@ -2200,12 +2106,8 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="introduccion-ciencia-de-datos">Introducci&#243;n Ciencia de Datos<a class="anchor-link" href="#introduccion-ciencia-de-datos">&#182;</a></h1><p>Al terminar este capítulo ustedes van a poder:</p>
-<ul>
-<li>Crear un proyecto en RStudio</li>
-<li>Cargar datos a una sesión de R</li>
-<li>Identificar y comprender las distintas estructuras con las que R maneja los datos</li>
-</ul>
+<h1 id="pipes">Pipes<a class="anchor-link" href="#pipes">&#182;</a></h1><h2 id="introduction">Introduction<a class="anchor-link" href="#introduction">&#182;</a></h2><p>Pipes are a powerful tool for clearly expressing a sequence of multiple operations. So far, you've been using them without knowing how they work, or what the alternatives are. Now, in this chapter, it's time to explore the pipe in more detail. You'll learn the alternatives to the pipe, when you shouldn't use the pipe, and some useful related tools.</p>
+<h3 id="prerequisites">Prerequisites<a class="anchor-link" href="#prerequisites">&#182;</a></h3><p>The pipe, <code>%&gt;%</code>, comes from the <strong>magrittr</strong> package by Stefan Milton Bache. Packages in the tidyverse load <code>%&gt;%</code> for you automatically, so you don't usually load magrittr explicitly.  Here, however, we're focussing on piping, and we aren't loading any other packages, so we will load it explicitly.</p>
 
 </div>
 </div>
@@ -2217,31 +2119,8 @@ Licensed under the Apache License, Version 2.0.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="nuestra-primera-investigacion-el-precio-de-las-propiedades-en-caba">Nuestra primera investigaci&#243;n: el precio de las propiedades en CABA<a class="anchor-link" href="#nuestra-primera-investigacion-el-precio-de-las-propiedades-en-caba">&#182;</a></h2><p>En este primer capítulo vamos a estudiar el mercado inmobiliario de la Ciudad de Buenos Aires. Más específicamente, analizaremos los movimientos de los precios en los años 2013-2017 a través de un muy interesante (y masivo) dataset que públicamente ofrece Properati1.</p>
-<p>Más allá de que analizar los datos de las propiedades es de por sí interesante y pedagógico para introducir varias de las herramientas que vamos a utilizar, el mercado inmobiliario fue procesando varios cambios en parámetros claves como el precio del dólar y la oferta de créditos hipotecarios. Por esta razón, los precios durante los últimos años de nuestra muestra han experimentado un alza, o eso dicen las fuentes del sector.</p>
-<center>
-    <img src="https://bookdown.org/martinmontaneb/CienciaDeDatosParaCuriosos/Figuras/Tutorial1/recortePrecios.png" alt="img R" 
-     width="700" height="500" >
-  <figcaption>Figure 1.1: Nota de TELAM sobre el precio de los inmuebles en CABA durante 2017
- </figcaption>
-</center>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En este primer capítulo vamos a hacer uso de un dataset que tiene el precio promedio del metro cuadrado en USD para el período 2013-2017 desagregado a nivel de barrios. Este dataset se descargó del portal de datos de Properati y se manipuló para que sea apto para nuestro primer análisis.</p>
-<p>Vamos a intentar responder dos preguntas:</p>
-<ul>
-<li>¿Aumentaron los precios de los inmuebles (medido como USD en m2) en el 2017?</li>
-<li>¿Todos los barrios aumentaron en la misma proporción o existen heterogeneidades?
-Pero antes de adentrarnos en nuestra pregunta de investigación tenemos que detenernos en algunos puntos importantes.</li>
-</ul>
+<p><code>{r setup, message = FALSE}
+library(magrittr)</code></p>
 
 </div>
 </div>
@@ -2253,9 +2132,14 @@ Pero antes de adentrarnos en nuestra pregunta de investigación tenemos que dete
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="conociendo-rstudio">Conociendo RStudio<a class="anchor-link" href="#conociendo-rstudio">&#182;</a></h2><p>RStudio es el Entorno Ingregrado de Desarrollo (IDE) que vamos a usar a lo largo de este libro, pero ¿Qué hace exactamente un IDE? ¿Para que lo necesitamos?</p>
-<blockquote><p>Un IDE es un software que nos ayuda programar de una manera más simple y eficiente. Entre algunas de sus múltiples funciones, nos sugiere qué deberíamos continuar escribiendo , nos marca dónde nos hemos confundido y administra nuestros archivos en proyectos.</p>
+<h2 id="piping-alternatives">Piping alternatives<a class="anchor-link" href="#piping-alternatives">&#182;</a></h2><p>The point of the pipe is to help you write code in a way that easier to read and understand. To see why the pipe is so useful, we're going to explore a number of ways of writing the same code. Let's use code to tell a story about a little bunny named Foo Foo:</p>
+<blockquote><p>Little bunny Foo Foo<br>
+Went hopping through the forest<br>
+Scooping up the field mice<br>
+And bopping them on the head</p>
 </blockquote>
+<p>This is a popular Children's poem that is accompanied by hand actions.</p>
+<p>We'll start by defining an object to represent little bunny Foo Foo:</p>
 
 </div>
 </div>
@@ -2267,25 +2151,541 @@ Pero antes de adentrarnos en nuestra pregunta de investigación tenemos que dete
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Pero no existe mejor manera de aprender qué es un IDE que usándolo. Abran <strong>RStudio</strong>. Por default, deberían encontrarse con algo similar a lo que aparece en la Figura 1. RStudio divide la pantalla en cuatro paneles. Ariba a la izquierda vemos el Panel de edición de archivos, donde vamos a modificar los archivos donde guardamos nuestro código, a la derecha vemos el Panel de estructuras de datos, donde aparecen las “estructuras de datos” que están creadas (más sobre esto abajo en el documento).</p>
-<p>Abajo a la izquierda tenemos el panel donde se visualiza la consola o terminal, que es donde vamos a ver ejecutado nuestro código y a su derecha un Panel multiuso, que será de utilidad para explorar archivos, ver la salida gráfica de nuestro código, encontrar ayuda sobre nuestros comandos, entre otras funciones.</p>
-<center>
-    <img src="https://bookdown.org/martinmontaneb/CienciaDeDatosParaCuriosos/Figuras/Tutorial1/Rstudio1.png" alt="img R" 
-     width="700" height="500" >
-  <figcaption>Figure 1.2: Impresión de pantalla de RStudio
- </figcaption>
-</center><p>Vamos a ejecutar nuestro primer código en R. En el panel de abajo a la izquierda (consola o terminal), ejecuten el siguiente código:</p>
+<p><code>{r, eval = FALSE}
+foo_foo &lt;- little_bunny()</code></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>And we'll use a function for each key verb: <code>hop()</code>, <code>scoop()</code>, and <code>bop()</code>. Using this object and these verbs, there are (at least) four ways we could retell the story in code:</p>
+<ol>
+<li>Save each intermediate step as a new object.</li>
+<li>Overwrite the original object many times.</li>
+<li>Compose functions.</li>
+<li>Use the pipe.</li>
+</ol>
+<p>We'll work through each approach, showing you the code and talking about the advantages and disadvantages.</p>
+<h3 id="intermediate-steps">Intermediate steps<a class="anchor-link" href="#intermediate-steps">&#182;</a></h3><p>The simplest approach is to save each step as a new object:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><code>{r, eval = FALSE}
+foo_foo_1 &lt;- hop(foo_foo, through = forest)
+foo_foo_2 &lt;- scoop(foo_foo_1, up = field_mice)
+foo_foo_3 &lt;- bop(foo_foo_2, on = head)</code></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The main downside of this form is that it forces you to name each intermediate element. If there are natural names, this is a good idea, and you should do it. But many times, like this in this example, there aren't natural names, and you add numeric suffixes to make the names unique. That leads to two problems:</p>
+<ol>
+<li><p>The code is cluttered with unimportant names</p>
+</li>
+<li><p>You have to carefully increment the suffix on each line.</p>
+</li>
+</ol>
+<p>Whenever I write code like this, I invariably use the wrong number on one line and then spend 10 minutes scratching my head and trying to figure out what went wrong with my code.</p>
+<p>You may also worry that this form creates many copies of your data and takes up a lot of memory. Surprisingly, that's not the case. First, note that proactively worrying about memory is not a useful way to spend your time: worry about it when it becomes a problem (i.e. you run out of memory), not before. Second, R isn't stupid, and it will share columns across data frames, where possible. Let's take a look at an actual data manipulation pipeline where we add a new column to <code>ggplot2::diamonds</code>:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>{r}
+diamonds &lt;- ggplot2::diamonds
+diamonds2 &lt;- diamonds %&gt;% 
+  dplyr::mutate(price_per_carat = price / carat)
+
+pryr::object_size(diamonds)
+pryr::object_size(diamonds2)
+pryr::object_size(diamonds, diamonds2)</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><code>pryr::object_size()</code> gives the memory occupied by all of its arguments. The results seem counterintuitive at first:</p>
+<ul>
+<li><code>diamonds</code> takes up 3.46 MB,</li>
+<li><code>diamonds2</code> takes up 3.89 MB,</li>
+<li><code>diamonds</code> and <code>diamonds2</code> together take up 3.89 MB!</li>
+</ul>
+<p>How can that work? Well, <code>diamonds2</code> has 10 columns in common with <code>diamonds</code>: there's no need to duplicate all that data, so the two data frames have variables in common. These variables will only get copied if you modify one of them. In the following example, we modify a single value in <code>diamonds$carat</code>. That means the <code>carat</code> variable can no longer be shared between the two data frames, and a copy must be made. The size of each data frame is unchanged, but the collective size increases:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>{r}
+diamonds$carat[1] &lt;- NA
+pryr::object_size(diamonds)
+pryr::object_size(diamonds2)
+pryr::object_size(diamonds, diamonds2)</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>(Note that we use <code>pryr::object_size()</code> here, not the built-in <code>object.size()</code>. <code>object.size()</code> only takes a single object so it can't compute how data is shared across multiple objects.)</p>
+<h3 id="overwrite-the-original">Overwrite the original<a class="anchor-link" href="#overwrite-the-original">&#182;</a></h3><p>Instead of creating intermediate objects at each step, we could overwrite the original object:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><code>{r, eval = FALSE}
+foo_foo &lt;- hop(foo_foo, through = forest)
+foo_foo &lt;- scoop(foo_foo, up = field_mice)
+foo_foo &lt;- bop(foo_foo, on = head)</code></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This is less typing (and less thinking), so you're less likely to make mistakes. However, there are two problems:</p>
+<ol>
+<li><p>Debugging is painful: if you make a mistake you'll need to re-run the 
+complete pipeline from the beginning.</p>
+</li>
+<li><p>The repetition of the object being transformed (we've written <code>foo_foo</code> six 
+times!) obscures what's changing on each line.</p>
+</li>
+</ol>
+<h3 id="function-composition">Function composition<a class="anchor-link" href="#function-composition">&#182;</a></h3><p>Another approach is to abandon assignment and just string the function calls together:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><code>{r, eval = FALSE}
+bop(
+  scoop(
+    hop(foo_foo, through = forest),
+    up = field_mice
+  ), 
+  on = head
+)</code></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Here the disadvantage is that you have to read from inside-out, from right-to-left, and that the arguments end up spread far apart (evocatively called the 
+<a href="https://en.wikipedia.org/wiki/Dagwood_sandwich">dagwood sandwhich</a> problem). In short, this code is hard for a human to consume.</p>
+<h3 id="use-the-pipe">Use the pipe<a class="anchor-link" href="#use-the-pipe">&#182;</a></h3><p>Finally, we can use the pipe:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><code>{r, eval = FALSE}
+foo_foo %&gt;%
+  hop(through = forest) %&gt;%
+  scoop(up = field_mice) %&gt;%
+  bop(on = head)</code></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This is my favourite form, because it focusses on verbs, not nouns. You can read this series of function compositions like it's a set of imperative actions. Foo Foo hops, then scoops, then bops. The downside, of course, is that you need to be familiar with the pipe. If you've never seen <code>%&gt;%</code> before, you'll have no idea what this code does. Fortunately, most people pick up the idea very quickly, so when you share you code with others who aren't familiar with the pipe, you can easily teach them.</p>
+<p>The pipe works by performing a "lexical transformation": behind the scenes, magrittr reassembles the code in the pipe to a form that works by overwriting an intermediate object. When you run a pipe like the one above, magrittr does something like this:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><code>{r, eval = FALSE}
+my_pipe &lt;- function(.) {
+  . &lt;- hop(., through = forest)
+  . &lt;- scoop(., up = field_mice)
+  bop(., on = head)
+}
+my_pipe(foo_foo)</code></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This means that the pipe won't work for two classes of functions:</p>
+<ol>
+<li>Functions that use the current environment. For example, <code>assign()</code>
+will create a new variable with the given name in the current environment:</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r}
+assign("x", 10)
+x
+
+"x" %&gt;% assign(100)
+x
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>The use of assign with the pipe does not work because it assigns it to 
+a temporary environment used by `%&gt;%`. If you do want to use assign with the
+pipe, you must be explicit about the environment:</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r}
+env &lt;- environment()
+"x" %&gt;% assign(100, envir = env)
+x
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>Other functions with this problem include `get()` and `load()`.
+
+</code></pre>
+<ol>
+<li><p>Functions that use lazy evaluation. In R, function arguments
+are only computed when the function uses them, not prior to calling the 
+function. The pipe computes each element in turn, so you can't 
+rely on this behaviour.</p>
+<p>One place that this is a problem is <code>tryCatch()</code>, which lets you capture
+and handle errors:</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r, error = TRUE}
+tryCatch(stop("!"), error = function(e) "An error")
+
+stop("!") %&gt;% 
+  tryCatch(error = function(e) "An error")
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>There are a relatively wide class of functions with this behaviour,
+  including <code>try()</code>, <code>suppressMessages()</code>, and <code>suppressWarnings()</code>
+  in base R.</p>
+<h2 id="when-not-to-use-the-pipe">When not to use the pipe<a class="anchor-link" href="#when-not-to-use-the-pipe">&#182;</a></h2><p>The pipe is a powerful tool, but it's not the only tool at your disposal, and it doesn't solve every problem! Pipes are most useful for rewriting a fairly short linear sequence of operations. I think you should reach for another tool when:</p>
+<ul>
+<li><p>Your pipes are longer than (say) ten steps. In that case, create 
+intermediate objects with meaningful names. That will make debugging easier,
+because you can more easily check the intermediate results, and it makes
+it easier to understand your code, because the variable names can help 
+communicate intent.</p>
+</li>
+<li><p>You have multiple inputs or outputs. If there isn't one primary object
+being transformed, but two or more objects being combined together,
+don't use the pipe.</p>
+</li>
+<li><p>You are starting to think about a directed graph with a complex
+dependency structure. Pipes are fundamentally linear and expressing 
+complex relationships with them will typically yield confusing code.</p>
+</li>
+</ul>
+<h2 id="other-tools-from-magrittr">Other tools from magrittr<a class="anchor-link" href="#other-tools-from-magrittr">&#182;</a></h2><p>All packages in the tidyverse automatically make <code>%&gt;%</code> available for you, so you don't normally load magrittr explicitly. However, there are some other useful tools inside magrittr that you might want to try out:</p>
+<ul>
+<li><p>When working with more complex pipes, it's sometimes useful to call a 
+function for its side-effects. Maybe you want to print out the current 
+object, or plot it, or save it to disk. Many times, such functions don't 
+return anything, effectively terminating the pipe.</p>
+<p>To work around this problem, you can use the "tee" pipe. <code>%T&gt;%</code> works like 
+<code>%&gt;%</code> except that it returns the left-hand side instead of the right-hand 
+side. It's called "tee" because it's like a literal T-shaped pipe.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r}
+rnorm(100) %&gt;%
+  matrix(ncol = 2) %&gt;%
+  plot() %&gt;%
+  str()
+
+rnorm(100) %&gt;%
+  matrix(ncol = 2) %T&gt;%
+  plot() %&gt;%
+  str()
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>If you're working with functions that don't have a data frame based API<br>
+(i.e. you pass them individual vectors, not a data frame and expressions 
+to be evaluated in the context of that data frame), you might find <code>%$%</code> 
+useful. It "explodes" out the variables in a data frame so that you can 
+refer to them explicitly. This is useful when working with many functions 
+in base R:</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r}
+mtcars %$%
+  cor(disp, mpg)
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>For assignment magrittr provides the <code>%&lt;&gt;%</code> operator which allows you to
+replace code like:</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r, eval = FALSE}
+mtcars &lt;- mtcars %&gt;% 
+  transform(cyl = cyl * 2)
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>with</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+<pre><code>```{r, eval = FALSE}
+mtcars %&lt;&gt;% transform(cyl = cyl * 2)
+```</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>I'm not a fan of this operator because I think assignment is such a 
+  special operation that it should always be clear when it's occurring.
+  In my opinion, a little bit of duplication (i.e. repeating the 
+  name of the object twice) is fine in return for making assignment
+  more explicit.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
         
         
         <div class="CodeMirror cm-s-jupyter">
@@ -2300,9 +2700,9 @@ Pero antes de adentrarnos en nuestra pregunta de investigación tenemos que dete
                 </div>
             </clipboard-copy>
         </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="mi">5</span> <span class="o">*</span> <span class="mi">10</span> <span class="c1"># No deberíamos necesitar a R para esto...</span>
+            <div class="highlight-ipynb hl-python"><pre><span></span>
 </pre></div>
-<div id="cell-1" class="clipboard-copy-txt">5 * 10 # No deberíamos necesitar a R para esto...</div>
+<div id="cell-1" class="clipboard-copy-txt"></div>
     
         </div>
     </div>
@@ -2310,1996 +2710,6 @@ Pero antes de adentrarnos en nuestra pregunta de investigación tenemos que dete
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-50
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Debería devolver, también en el panel de la consola, el número 50. Ya ejecutamos nuestro primer código en R, pero antes de seguir ejecutemos lo mismo de una manera un poco distinta. Escriban exactamente el mismo código, pero ahora en el <strong>Panel de edición de archivos</strong>. Una vez que lo hayan escrito, seleccionen el código completo con el mouse y presionen <code>Control + Enter</code>. En la consola deberían obtener exactamente el mismo resultado.</p>
-<p>¿Qué fue lo que pasó? Nuestro código está en un archivo (que todavía no guardamos). Al seleccionar el código y apretar <code>Control + Enter</code> RStudio pasa este código a la consola y se ejecuta, tal como antes. Para guardar el archivo que acabamos de editar, presionen <code>Control + S</code>, pongan el nombre que quieran al nuevo archivo, que tendrá la terminación <code>.R</code>, que es como vamos a identificar a los archivos que contienen código de R.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="proyectos-en-rstudio">Proyectos en RStudio<a class="anchor-link" href="#proyectos-en-rstudio">&#182;</a></h3><p>Hasta ahora creamos un archivo .R que tiene una sola línea de código, pero en los proyectos en los que solemos trabajar la cantidad de archivos con código y con datos se multiplica. Si no pensamos en la organización para un proyecto de ciencia de datos, el resultado puede ser un conjunto de archivos con nombres poco intuitivos en las ubicaciones más variadas dentro de nuestra computadora.</p>
-<p>Para ayudar a corregir al menos parcialmente este problema, RStudio ofrece la posibilidad de guardar todos los archivos vinculados a un proyecto en una misma dirección de nuestra computadora. De esta manera, evitamos tener que recordar dónde guardamos los archivos y podemos movernos rápidamente de proyecto en proyecto.</p>
-<p>Crear un nuevo proyecto en RStudio es realmente simple. Solo tienen que ir a <code>File -&gt; New Project... -&gt; New Directory -&gt; New Project</code>. Allí deben elegir un nombre para el proyecto y hacer click en Create Project ¡Listo! Ya creamos nuestro primer proyecto. Nuestra pantalla ahora debería estar dividida en cuatro paneles.</p>
-<p>¿Recuerdan la carpeta donde crearon el proyecto? Una vez que lo hayan hecho, ejecuten el siguiente código desde el panel de abajo a la izquierda:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-2">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">getwd</span><span class="p">()</span>
-</pre></div>
-<div id="cell-2" class="clipboard-copy-txt">getwd()</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-'/content'
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>¿Qué sucedió? Les devolvió la dirección de la carpeta donde está este proyecto. De ahora en más, todo lo que guarden o a lo que intenten acceder desde el proyecto de RStudio se hará dentro de este directorio. Esto trae muchos beneficios que iremos viendo de aquí en adelante.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="importando-datos-a-r">Importando datos a R<a class="anchor-link" href="#importando-datos-a-r">&#182;</a></h2><p>Cargar los datos a la sesión de R - es decir cuando abrimos RStudio - es una de las tareas más importantes ¡no hay ciencia de datos sin datos! En esta sección vamos a ver distintas formas de cargar los datos y veremos dónde aparecen visualmente en RStudio.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="comma-separated-values">Comma Separated Values<a class="anchor-link" href="#comma-separated-values">&#182;</a></h3><p>Uno de los formatos más conocidos para guardar datos son los archivos separados por comas (CSV). El formato consiste simplemente en elementos separados por algún delimitador, en general una coma, que terminan formando una matriz. Veamos un ejemplo con el precio de los inmuebles por año y barrio:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-3">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">precioAvisos</span> <span class="o">&lt;-</span> <span class="n">read</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;https://raw.githubusercontent.com/martintinch0/CienciaDeDatosParaCuriosos/master/data/precioBarrios.csv&#39;</span><span class="p">,</span>
-         <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;;&#39;</span><span class="p">,</span>
-         <span class="n">stringsAsFactors</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span>
-</pre></div>
-<div id="cell-3" class="clipboard-copy-txt">precioAvisos <- read.csv(file = 'https://raw.githubusercontent.com/martintinch0/CienciaDeDatosParaCuriosos/master/data/precioBarrios.csv',
-         sep=';',
-         stringsAsFactors = FALSE)</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En este código hicimos muchas cosas ¿no? Pero antes de empezar a explicar lo que acaban de ejecutar, fijense qué pasó en el panel de arriba a la derecha: deberían tener una fila que dice “precioAvisos” con 48 observaciones 6 variables. Si descargan el csv que acabamos de cargar directamente a R y lo abren, por ejemplo, con excel van a ver también que tiene 48 observaciones y 6 variables <strong>¡Hicimos nuestra primera carga de datos a R!</strong></p>
-<p>¿Cómo lo hicimos? Con la ayuda de la función <strong>read.csv</strong>. ¿Qué es una función? Una función no es otra cosa que un conjunto de código que no vemos, pero que podemos usar de la siguiente manera: le damos algo y nos devuelve otra cosa.</p>
-<blockquote><p>Una función en los lenguajes de programación es una “caja” que procesa algo que le damos (input) y nos devuelve algo (output).</p>
-</blockquote>
-<p>¿Qué le damos a una función? Le pasamos valores. En este caso, file, sep y stringsAsFactors. ¿Qué nos devuelve? Lo que hay en ese archivo (file) separado por el caracter que nosotros le pasamos (sep). Por el momento, dejaremos stringsAsFactors de un lado.</p>
-<p>Pero ¿Cómo aparecieron esos datos en un <strong>objeto</strong> con un nombre <strong>precioAvisos</strong>? Eso lo hicimos con la ayuda de <code>&lt;-</code>, nuestra forma de asignar resultados de funciones a objetos.</p>
-<blockquote><p>El operador de asignación <code>&lt;-</code> “pasa” o asigna lo que sea que está a su derecha a un objeto que está a su izquierda. En nuestro ejemplo. a la izquierda esta “precioAvisos”, que es como se llamará nuestro objeto, y a la derecha está nuestra primera función “read.csv()”</p>
-</blockquote>
-<h2 id="como-r-organiza-los-datos">&#191;C&#243;mo R organiza los datos?<a class="anchor-link" href="#como-r-organiza-los-datos">&#182;</a></h2><p>Hagan click en “precioAvisos”, en el panel de arriba a la derecha ¿Qué ven? Este es tan solo uno de los objetos que tiene R para ir guardando datos. La función <code>class()</code> nos ayuda para saber qué usó R para guardar estos datos:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-4">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">class</span><span class="p">(</span><span class="n">precioAvisos</span><span class="p">)</span>
-</pre></div>
-<div id="cell-4" class="clipboard-copy-txt">class(precioAvisos)</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-'data.frame'
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En este caso, vemos que es un <strong>data.frame</strong>, un caso específico - y muy importante - de las estructuras de datos u objetos de R. Se trata de un caso un poco complejo, vayamos un poco para atrás y veamos las estructuras de datos más simples que maneja R. Luego veremos que se relacionan con los <strong>data.frame</strong>.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="vectores">Vectores<a class="anchor-link" href="#vectores">&#182;</a></h3><p>R organiza a los datos en diferentes <strong>estructuras</strong> según el dominio de los datos. El dominio no es otra cosa que los valores que una variable puede llegar a tomar. Por ejemplo, si una variable solo puede tomar números reales y enteros, R pondrá esa variable en un vector númerico o integer, para ser más preciso.</p>
-<p>Un vector es la estructura más básica con la que vamos a lidiar. Un <strong>vector</strong> no es otra cosa que una colección numerada de valores, es decir una estructura que puede contener uno o más valores, y puede accederse a través de índices que denotan el orden de cada número dentro del vector ¿Simple, no? Creemos nuestro primer vector</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-5">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">primerVector</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">80</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
-</pre></div>
-<div id="cell-5" class="clipboard-copy-txt">primerVector <- c(20,40,60,80,100)</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Ya está: el objeto <code>primerVector</code> es un vector númerico que tiene cinco elementos: <code>20</code>, <code>40</code>, <code>60</code>, <code>80</code> y <code>100</code>. Como les prometí, el vector es una colección numerada de valores, por lo que podemos acceder a cualquiera de los valores llamando al objeto por su nombre y escribiendo la posición entre corchetes <code>[]</code> (la numeración arranca desde 1 en R)</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-6">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">primerVector</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="c1"># Devuelve el valor del elemento en la tercera posición de nuestro vector</span>
-</pre></div>
-<div id="cell-6" class="clipboard-copy-txt">primerVector[3] # Devuelve el valor del elemento en la tercera posición de nuestro vector</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-60
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La mayor parte de nuestros datos no consiste solo en números, sino en datos mixtos: números, texto, variables categóricas, variables lógicas. Todos estos tipos de datos pueden ser representados en nuestros versátiles vectores:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-7">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">vectorTexto</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span><span class="s2">&quot;Croacia&quot;</span><span class="p">,</span><span class="s2">&quot;Argentina&quot;</span><span class="p">,</span><span class="s2">&quot;Nigeria&quot;</span><span class="p">,</span><span class="s2">&quot;Islandia&quot;</span><span class="p">)</span>
-<span class="n">vectorLogico</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span><span class="n">FALSE</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">)</span>
-</pre></div>
-<div id="cell-7" class="clipboard-copy-txt">vectorTexto <- c("Croacia","Argentina","Nigeria","Islandia")
-vectorLogico <- c(FALSE, TRUE, TRUE, FALSE)</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Los vectores de texto no requieren demasiada discusión: son vectores cuyos elementos son texto. Por su parte, los vectores lógicos quizás sí requieran algo de explicación. Los elementos de estos vectores solo pueden tomar los valores TRUE o FALSE, y resultan de mucha utilidad para hacer preguntas del estilo ¿Es este vector un vector de texto?</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-8">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="ow">is</span><span class="o">.</span><span class="n">character</span><span class="p">(</span><span class="n">vectorTexto</span><span class="p">)</span>
-</pre></div>
-<div id="cell-8" class="clipboard-copy-txt">is.character(vectorTexto)</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-TRUE
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Volvamos a nuestros datos sobre los precios de los inmuebles. Ya comentamos que había seis variables, pero no dijimos que a su vez son ¡6 vectores!. Uno es CHARACTER, como nuestro <code>vectorTexto</code> anterior, cinco son INTEGER, o numeric, como nuestro <code>primer_vector</code> y el último es sfc_MULTIPOLYGON (vamos a ver un poco más en detalle este último tipo de vector en próximas clases) ¿Cómo podemos acceder a ellos? La llave es el operador <code>$</code></p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-9">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">precios2017</span> <span class="o">&lt;-</span> <span class="n">precioAvisos</span><span class="err">$</span><span class="n">USDm2_2017</span> 
-<span class="nb">str</span><span class="p">(</span><span class="n">precios2017</span><span class="p">)</span> <span class="c1"># ¿Los 100 barrios porteños en realidad son 48?</span>
-</pre></div>
-<div id="cell-9" class="clipboard-copy-txt">precios2017 <- precioAvisos$USDm2_2017 
-str(precios2017) # ¿Los 100 barrios porteños en realidad son 48?</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre> num [1:48] 1946 2299 1989 1920 3199 ...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>¿Qué fue lo que hicimos? Creamos el objeto precios2017 al que le asignamos (<code>&lt;-</code>) el vector/variable <code>USDm2_2017</code> que está en el Data Frame precioAvisos (vamos a ver más sobre los <strong>Data Frame</strong> más adelante). Al usar la función <code>str()</code> (son las primeras tres letras de la palabra structure en inglés) vemos que se trata de un vector integer (o númerico) con 48 elementos ¡La misma cantidad de observaciones que tenemos en <code>precioAvisos</code>!</p>
-<p>Ahora es donde las cosas se ponen un poco más interesantes. Podemos hacer múltiples operaciones aritméticas sobre este vector de una manera muy simple:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-10">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">precios2017</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># Multiplicación</span>
-</pre></div>
-<div id="cell-10" class="clipboard-copy-txt">str(precios2017*2) # Multiplicación</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre> num [1:48] 3891 4598 3978 3839 6398 ...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-11">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">precios2017</span><span class="o">/</span><span class="mi">4</span><span class="p">)</span> <span class="c1"># División</span>
-</pre></div>
-<div id="cell-11" class="clipboard-copy-txt">str(precios2017/4) # División</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre> num [1:48] 486 575 497 480 800 ...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-12">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">precios2017</span> <span class="o">-</span> <span class="mi">20</span><span class="p">)</span> <span class="c1"># Resta por solo un número</span>
-</pre></div>
-<div id="cell-12" class="clipboard-copy-txt">str(precios2017 - 20) # Resta por solo un número</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre> num [1:48] 1926 2279 1969 1900 3179 ...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-13">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">precios2017</span> <span class="o">-</span> <span class="n">precios2017</span><span class="p">)</span> <span class="c1"># Resta con otro vector de igual tamaño</span>
-</pre></div>
-<div id="cell-13" class="clipboard-copy-txt">str(precios2017 - precios2017) # Resta con otro vector de igual tamaño</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre> num [1:48] 0 0 0 0 0 0 0 0 0 0 ...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Una de las ventajas de R es su vectorización. En las operaciones anteriores vimos como múltiplicar, dividir, restar o cualquier otra operación aritmética se <strong>aplica de manera individual sobre cada uno de los elementos de los vectores</strong>, con lo cual la operación se hace elemento por elemento.</p>
-<p>Hagamos algo que sea útil para describir la distribución de los precios de los inmuebles ¿Cuál es el valor mínimo del metro cuadrado? ¿Cuál es el máximo? ¿Cuál es el precio promedio? Las funciones <code>min()</code>, <code>max()</code> y <code>mean()</code> hacen el trabajo por nosotros.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-14">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">resumen_2017</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">precios2017</span><span class="p">),</span> <span class="nb">max</span><span class="p">(</span><span class="n">precios2017</span><span class="p">),</span> <span class="n">mean</span><span class="p">(</span><span class="n">precios2017</span><span class="p">))</span>
-<span class="n">resumen_2017</span>
-</pre></div>
-<div id="cell-14" class="clipboard-copy-txt">resumen_2017 <- c(min(precios2017), max(precios2017), mean(precios2017))
-resumen_2017</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>872.7540794</li><li>6070.3287995</li><li>2203.11191260833</li></ol>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="listas-y-data-frames">Listas y Data Frames<a class="anchor-link" href="#listas-y-data-frames">&#182;</a></h3><p>Otras estructuras de datos importantes en R son las <strong>listas</strong> y <strong>Data Frames</strong>:</p>
-<ul>
-<li>Las <strong>listas</strong> son objetos que contienen a su vez un conjunto ordenados de objetos.</li>
-<li>Los <strong>Data Frames</strong> son un caso específico de listas.</li>
-</ul>
-<p><strong>Listas</strong></p>
-<p>Las listas tienen la posibilidad de almacenar objetos con distinta clase. Es decir, es posible crear una lista en la cual se almacenan otras estructuras de datos con clases distintas:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-15">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">lista1</span> <span class="o">&lt;-</span> <span class="nb">list</span><span class="p">(</span><span class="n">Nombres</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s2">&quot;Fernando&quot;</span><span class="p">,</span><span class="s2">&quot;Martín&quot;</span><span class="p">),</span> <span class="n">Apellido</span><span class="o">=</span><span class="s2">&quot;Montané&quot;</span><span class="p">,</span> <span class="n">tienehijos</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">,</span>
-              <span class="n">edad</span> <span class="o">=</span> <span class="mi">26</span><span class="p">)</span>
-<span class="n">lista1</span>
-</pre></div>
-<div id="cell-15" class="clipboard-copy-txt">lista1 <- list(Nombres = c("Fernando","Martín"), Apellido="Montané", tienehijos = FALSE,
-              edad = 26)
-lista1</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<dl>
-	<dt>$Nombres</dt>
-		<dd><style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>'Fernando'</li><li>'Martín'</li></ol>
-</dd>
-	<dt>$Apellido</dt>
-		<dd>'Montané'</dd>
-	<dt>$tienehijos</dt>
-		<dd>FALSE</dd>
-	<dt>$edad</dt>
-		<dd>26</dd>
-</dl>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En este caso creamos una lista que se llama lista1 y almacena 4 vectores. El primero, es un vector Nombres que contiene dos elementos de clase character. El segundo, un vector de un solo elemento, Apellido de clase character. El tercero, un vector lógico de un elemento ( tienehijos ). Finalmente, el vector edad, que posee un elemento númerico.</p>
-<p>En las listas hay que acceder a los objetos, que puede ser cualquiera de las estructuras que vimos hasta ahora (incluyendo las listas). Para acceder a ellos existen al menos 3 formas:</p>
-<ul>
-<li>Usando el signo $ `lista$Nombres`</li>
-<li>Usando doble corchetes e indicando la posición del objeto buscado <code>lista[[1]]</code></li>
-<li>Usando doble corchetes e indicando el nombre del objeto buscado <code>lista[['Nombres']]</code></li>
-</ul>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-16">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">lista1</span><span class="err">$</span><span class="n">Nombres</span>
-</pre></div>
-<div id="cell-16" class="clipboard-copy-txt">lista1$Nombres</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>'Fernando'</li><li>'Martín'</li></ol>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-17">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">lista1</span><span class="p">[[</span><span class="mi">1</span><span class="p">]]</span>
-</pre></div>
-<div id="cell-17" class="clipboard-copy-txt">lista1[[1]]</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>'Fernando'</li><li>'Martín'</li></ol>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-18">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">lista1</span><span class="p">[[</span><span class="s1">&#39;Nombres&#39;</span><span class="p">]]</span>
-</pre></div>
-<div id="cell-18" class="clipboard-copy-txt">lista1[['Nombres']]</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>'Fernando'</li><li>'Martín'</li></ol>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Data Frames</strong></p>
-<p>¡Ahora estamos en condiciones de explicar qué es un <strong>Data Frame</strong>! Como se adelantó, un <strong>Data Frame</strong> es un caso específico de listas. En la gran mayoría de las aplicaciones se puede describir como una matriz en la cual variables (columnas) pueden ser de distintas clases.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-19">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span> <span class="o">&lt;-</span> <span class="n">data</span><span class="o">.</span><span class="n">frame</span><span class="p">(</span><span class="n">Nombres</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s1">&#39;Juan&#39;</span><span class="p">,</span><span class="s1">&#39;Pedro&#39;</span><span class="p">,</span><span class="s1">&#39;Ana&#39;</span><span class="p">,</span><span class="s1">&#39;Delfina&#39;</span><span class="p">),</span>
-                 <span class="n">Edad</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">58</span><span class="p">,</span><span class="mi">27</span><span class="p">),</span>
-                 <span class="n">EstadoCivil</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s1">&#39;Soltero&#39;</span><span class="p">,</span><span class="s1">&#39;Casado&#39;</span><span class="p">,</span><span class="s1">&#39;Casado&#39;</span><span class="p">,</span><span class="s1">&#39;Soltero&#39;</span><span class="p">),</span>
-                 <span class="n">SecundarioCompleto</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="n">TRUE</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">))</span>
-<span class="n">df</span>
-</pre></div>
-<div id="cell-19" class="clipboard-copy-txt">df <- data.frame(Nombres = c('Juan','Pedro','Ana','Delfina'),
-                 Edad = c(21,46,58,27),
-                 EstadoCivil = c('Soltero','Casado','Casado','Soltero'),
-                 SecundarioCompleto = c(TRUE, FALSE, TRUE, TRUE))
-df</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table class="dataframe">
-<caption>A data.frame: 4 × 4</caption>
-<thead>
-	<tr><th scope=col>Nombres</th><th scope=col>Edad</th><th scope=col>EstadoCivil</th><th scope=col>SecundarioCompleto</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;lgl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>Juan   </td><td>21</td><td>Soltero</td><td> TRUE</td></tr>
-	<tr><td>Pedro  </td><td>46</td><td>Casado </td><td>FALSE</td></tr>
-	<tr><td>Ana    </td><td>58</td><td>Casado </td><td> TRUE</td></tr>
-	<tr><td>Delfina</td><td>27</td><td>Soltero</td><td> TRUE</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-20">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> <span class="c1"># Resumen del objeto</span>
-</pre></div>
-<div id="cell-20" class="clipboard-copy-txt">str(df) # Resumen del objeto</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&#39;data.frame&#39;:	4 obs. of  4 variables:
- $ Nombres           : chr  &#34;Juan&#34; &#34;Pedro&#34; &#34;Ana&#34; &#34;Delfina&#34;
- $ Edad              : num  21 46 58 27
- $ EstadoCivil       : chr  &#34;Soltero&#34; &#34;Casado&#34; &#34;Casado&#34; &#34;Soltero&#34;
- $ SecundarioCompleto: logi  TRUE FALSE TRUE TRUE
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>El comando str nos devuelve un resumen de las variables del data frame, incluyendo sus clases. Si prestan atención, el vector numérico Edad y el lógico <em>SecundarioCompleto</em> tienen la clase esperada, pero los vectores de caracteres Edad y <em>SecundarioCompleto</em> dice <strong>Factor</strong> w/2 o w/4 levels ¿Qué es esto?</p>
-<p>La clase Factor es un caso específico de vectores. En esta clase de vectores, las variables solo pueden tomar un conjunto de valores predeterminados, es decir que tienen una categoría. Estas categorías se llaman levels en R.</p>
-<p>Internamente R transforma estas variables y les asigna un número entero, que son los valores que nos devolvió el comando str. Sin embargo, estos números hacen referencia a una categoría que tiene un nombre. En nuestro caso ¿Tiene sentido que los dos vectores con texto sean Factores?. Respuesta: no. El estado civil de una persona sí puede segmentarse en categorías que se repiten, pero no es el caso de los nombres. Para evitar que R transforme nuestros vectores character en Factor lo que hay que hacer cuando definimos un <strong>Data Frame</strong> es decírselo a R con el parámetro <em>stringsAsFactors</em>:</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-21">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">df</span> <span class="o">&lt;-</span> <span class="n">data</span><span class="o">.</span><span class="n">frame</span><span class="p">(</span><span class="n">Nombres</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s1">&#39;Juan&#39;</span><span class="p">,</span><span class="s1">&#39;Pedro&#39;</span><span class="p">,</span><span class="s1">&#39;Ana&#39;</span><span class="p">,</span><span class="s1">&#39;Delfina&#39;</span><span class="p">),</span>
-                 <span class="n">Edad</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">46</span><span class="p">,</span><span class="mi">58</span><span class="p">,</span><span class="mi">27</span><span class="p">),</span>
-                 <span class="n">EstadoCivil</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="s1">&#39;Soltero&#39;</span><span class="p">,</span><span class="s1">&#39;Casado&#39;</span><span class="p">,</span><span class="s1">&#39;Casado&#39;</span><span class="p">,</span><span class="s1">&#39;Soltero&#39;</span><span class="p">),</span>
-                 <span class="n">SecundarioCompleto</span> <span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="n">TRUE</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">),</span>
-                 <span class="n">stringsAsFactors</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span>
-<span class="n">df</span>
-</pre></div>
-<div id="cell-21" class="clipboard-copy-txt">df <- data.frame(Nombres = c('Juan','Pedro','Ana','Delfina'),
-                 Edad = c(21,46,58,27),
-                 EstadoCivil = c('Soltero','Casado','Casado','Soltero'),
-                 SecundarioCompleto = c(TRUE, FALSE, TRUE, TRUE),
-                 stringsAsFactors = FALSE)
-df</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table class="dataframe">
-<caption>A data.frame: 4 × 4</caption>
-<thead>
-	<tr><th scope=col>Nombres</th><th scope=col>Edad</th><th scope=col>EstadoCivil</th><th scope=col>SecundarioCompleto</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;lgl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>Juan   </td><td>21</td><td>Soltero</td><td> TRUE</td></tr>
-	<tr><td>Pedro  </td><td>46</td><td>Casado </td><td>FALSE</td></tr>
-	<tr><td>Ana    </td><td>58</td><td>Casado </td><td> TRUE</td></tr>
-	<tr><td>Delfina</td><td>27</td><td>Soltero</td><td> TRUE</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-22">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> <span class="c1"># Resumen del objeto. Ahora ya no tenemos Factors.</span>
-</pre></div>
-<div id="cell-22" class="clipboard-copy-txt">str(df) # Resumen del objeto. Ahora ya no tenemos Factors.</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&#39;data.frame&#39;:	4 obs. of  4 variables:
- $ Nombres           : chr  &#34;Juan&#34; &#34;Pedro&#34; &#34;Ana&#34; &#34;Delfina&#34;
- $ Edad              : num  21 46 58 27
- $ EstadoCivil       : chr  &#34;Soltero&#34; &#34;Casado&#34; &#34;Casado&#34; &#34;Soltero&#34;
- $ SecundarioCompleto: logi  TRUE FALSE TRUE TRUE
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Los vectores Factor son de mucha utilidad, especialmente cuando se trabaja con modelos estadísticos en R. Vamos a verlos en otras aplicaciones más adelante.</p>
-<p>Ahora ya tenemos los elementos suficientes como para definir más concretamente qué es un Data Frame: es un conjunto de listas, que en su versión más usual contienen un vector cada una de un mismo largo (mismas cantidad de observaciones), pero que pueden almacenar variables de distinto dominio. Esto es algo muy útil para la mayor parte de datasets con los que se trabaja.</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="inspeccionando-nuestros-datos">Inspeccionando nuestros datos<a class="anchor-link" href="#inspeccionando-nuestros-datos">&#182;</a></h2><p>¿Cómo sabemos qué datos tenemos cargados? Tenemos al menos dos funciones que sirven para inspeccionar rápidamente los datos. Por un lado, podemos usar la función <code>View()</code> (Notar la <strong>V</strong> mayúscula al principio de la función). Lo que hay que hacer es pasarle uno de nuestros objetos que están cargados, y nos devuelve la tabla entera en el panel de edición.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-23">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">View</span><span class="p">(</span><span class="n">precioAvisos</span><span class="p">)</span> <span class="c1"># Debería abrirse una tabla dentro del panel de edición</span>
-</pre></div>
-<div id="cell-23" class="clipboard-copy-txt">View(precioAvisos) # Debería abrirse una tabla dentro del panel de edición</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table class="dataframe">
-<caption>A data.frame: 48 × 6</caption>
-<thead>
-	<tr><th scope=col>BARRIOS</th><th scope=col>USDm2_2013</th><th scope=col>USDm2_2014</th><th scope=col>USDm2_2015</th><th scope=col>USDm2_2016</th><th scope=col>USDm2_2017</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>AGRONOMIA        </td><td>1749.107</td><td>1457.974</td><td>1689.309</td><td>2056.743</td><td>1945.6065</td></tr>
-	<tr><td>ALMAGRO          </td><td>2033.538</td><td>1930.081</td><td>2086.387</td><td>1950.488</td><td>2299.0683</td></tr>
-	<tr><td>BALVANERA        </td><td>1893.371</td><td>1818.466</td><td>1857.900</td><td>1834.028</td><td>1989.1439</td></tr>
-	<tr><td>BARRACAS         </td><td>2229.450</td><td>1901.401</td><td>2390.073</td><td>1751.239</td><td>1919.5811</td></tr>
-	<tr><td>BELGRANO         </td><td>2619.973</td><td>2544.015</td><td>2695.148</td><td>3286.557</td><td>3199.2061</td></tr>
-	<tr><td>BOCA             </td><td>1665.082</td><td>1405.424</td><td>1812.957</td><td>1459.604</td><td>1674.5640</td></tr>
-	<tr><td>BOEDO            </td><td>2578.181</td><td>1810.027</td><td>2082.106</td><td>1562.627</td><td>1857.9378</td></tr>
-	<tr><td>CABALLITO        </td><td>2263.397</td><td>2033.947</td><td>2153.961</td><td>2264.950</td><td>2512.9830</td></tr>
-	<tr><td>CHACARITA        </td><td>2353.396</td><td>2083.826</td><td>2122.337</td><td>2110.865</td><td>2435.5774</td></tr>
-	<tr><td>COGHLAN          </td><td>2656.169</td><td>2211.404</td><td>2234.113</td><td>2443.587</td><td>2608.7611</td></tr>
-	<tr><td>COLEGIALES       </td><td>2456.690</td><td>2425.557</td><td>2345.988</td><td>2530.120</td><td>2820.5775</td></tr>
-	<tr><td>CONSTITUCION     </td><td>1757.722</td><td>1615.515</td><td>1891.143</td><td>1669.477</td><td>1780.9270</td></tr>
-	<tr><td>FLORES           </td><td>2012.048</td><td>1818.180</td><td>1941.132</td><td>1945.581</td><td>2052.0307</td></tr>
-	<tr><td>FLORESTA         </td><td>1775.217</td><td>1850.633</td><td>1707.078</td><td>1698.672</td><td>1799.0546</td></tr>
-	<tr><td>LINIERS          </td><td>1671.956</td><td>1583.798</td><td>1804.059</td><td>1778.948</td><td>1799.8994</td></tr>
-	<tr><td>MATADEROS        </td><td>1509.202</td><td>1470.884</td><td>1460.970</td><td>1367.489</td><td>1526.9062</td></tr>
-	<tr><td>MONSERRAT        </td><td>2211.122</td><td>2063.177</td><td>2114.658</td><td>2073.782</td><td>2195.5157</td></tr>
-	<tr><td>MONTE CASTRO     </td><td>2131.067</td><td>1689.208</td><td>1818.925</td><td>1900.716</td><td>1926.7460</td></tr>
-	<tr><td>NUEVA POMPEYA    </td><td>1733.885</td><td>1389.153</td><td>1435.563</td><td>1288.173</td><td>1520.7808</td></tr>
-	<tr><td>NUÑEZ            </td><td>2860.343</td><td>2571.673</td><td>2766.086</td><td>3083.382</td><td>3099.7532</td></tr>
-	<tr><td>PALERMO          </td><td>2969.914</td><td>2865.323</td><td>2855.663</td><td>3338.895</td><td>3440.1838</td></tr>
-	<tr><td>PARQUE AVELLANEDA</td><td>1501.626</td><td>1450.182</td><td>3093.725</td><td>1382.946</td><td>1365.5237</td></tr>
-	<tr><td>PARQUE CHACABUCO </td><td>1774.638</td><td>1787.546</td><td>1811.577</td><td>1743.468</td><td>2030.7709</td></tr>
-	<tr><td>PARQUE CHAS      </td><td>2167.927</td><td>1938.503</td><td>2033.618</td><td>2103.709</td><td>2221.9000</td></tr>
-	<tr><td>PARQUE PATRICIOS </td><td>1671.574</td><td>1502.252</td><td>1665.247</td><td>1796.961</td><td>1784.2635</td></tr>
-	<tr><td>PATERNAL         </td><td>1979.661</td><td>1694.042</td><td>1560.521</td><td>1958.359</td><td>2062.8619</td></tr>
-	<tr><td>PUERTO MADERO    </td><td>4808.052</td><td>4754.230</td><td>5348.426</td><td>5742.719</td><td>6070.3288</td></tr>
-	<tr><td>RECOLETA         </td><td>2804.563</td><td>2656.299</td><td>2698.058</td><td>3068.577</td><td>3248.2453</td></tr>
-	<tr><td>RETIRO           </td><td>2684.619</td><td>2658.874</td><td>2728.101</td><td>2836.720</td><td>3146.8744</td></tr>
-	<tr><td>SAAVEDRA         </td><td>2142.902</td><td>2159.452</td><td>2079.747</td><td>2186.247</td><td>2361.0853</td></tr>
-	<tr><td>SAN CRISTOBAL    </td><td>2323.973</td><td>1934.920</td><td>2624.382</td><td>1770.419</td><td>1916.3548</td></tr>
-	<tr><td>SAN NICOLAS      </td><td>2518.413</td><td>2180.252</td><td>2102.118</td><td>2343.136</td><td>2431.0081</td></tr>
-	<tr><td>SAN TELMO        </td><td>2224.907</td><td>1984.548</td><td>1991.912</td><td>2186.106</td><td>2390.8029</td></tr>
-	<tr><td>VELEZ SARSFIELD  </td><td>1618.784</td><td>1559.800</td><td>1520.944</td><td>1599.940</td><td>1751.4902</td></tr>
-	<tr><td>VERSALLES        </td><td>1483.271</td><td>1403.157</td><td>1488.054</td><td>1645.329</td><td>1625.8537</td></tr>
-	<tr><td>VILLA CRESPO     </td><td>2260.153</td><td>2357.957</td><td>2254.580</td><td>2326.994</td><td>2474.0603</td></tr>
-	<tr><td>VILLA DEL PARQUE </td><td>1935.495</td><td>1852.457</td><td>1859.115</td><td>2039.246</td><td>2197.6942</td></tr>
-	<tr><td>VILLA DEVOTO     </td><td>2093.273</td><td>1904.191</td><td>2096.970</td><td>2083.992</td><td>2171.3600</td></tr>
-	<tr><td>VILLA GRAL. MITRE</td><td>1934.169</td><td>1731.286</td><td>1928.124</td><td>1967.199</td><td>2022.8740</td></tr>
-	<tr><td>VILLA LUGANO     </td><td>1182.779</td><td>1248.710</td><td>1172.980</td><td>1208.222</td><td>1152.4682</td></tr>
-	<tr><td>VILLA LURO       </td><td>1788.873</td><td>1949.096</td><td>1671.023</td><td>1681.790</td><td>2001.4789</td></tr>
-	<tr><td>VILLA ORTUZAR    </td><td>2126.561</td><td>2151.608</td><td>2062.152</td><td>2007.371</td><td>2390.9102</td></tr>
-	<tr><td>VILLA PUEYRREDON </td><td>1894.086</td><td>1497.981</td><td>1630.813</td><td>1624.366</td><td>2061.2390</td></tr>
-	<tr><td>VILLA REAL       </td><td>1669.844</td><td>1436.426</td><td>1463.709</td><td>1582.302</td><td>1726.4659</td></tr>
-	<tr><td>VILLA RIACHUELO  </td><td>1489.534</td><td>1369.383</td><td>1212.377</td><td>1475.852</td><td>1311.8156</td></tr>
-	<tr><td>VILLA SANTA RITA </td><td>2182.093</td><td>1948.102</td><td>2137.532</td><td>1848.100</td><td>1952.2045</td></tr>
-	<tr><td>VILLA SOLDATI    </td><td>1721.077</td><td>1700.376</td><td>1611.692</td><td>2382.034</td><td> 872.7541</td></tr>
-	<tr><td>VILLA URQUIZA    </td><td>2291.764</td><td>1980.756</td><td>2121.251</td><td>2439.630</td><td>2601.8794</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Deberían ver una matriz con 6 columnas y unas 48 filas. Las filas representan observaciones (en este caso, barrios), mientras que las columnas hacen referencia a las variables, que tienen los siguientes nombres: BARRIOS, USDm2_2013, USDm2_2014, USDm2_2015, USDm2_2016, USDm2_2017 y geometry ¿Qué significan?</p>
-<ul>
-<li><strong>BARRIOS</strong>: es una variable que indica cuál es el nombre del barrio al que pertenece cada observación</li>
-<li><strong>USDm2_201x</strong>: estás 5 columnas hacen referencia al valor promedio de los inmuebles creados en cada año para cada barrio (período 2013-2017)</li>
-</ul>
-<p>Otra función que puede ser muy útil para describir nuestros objetos, que ya hemos usado anteriormente, es <code>str()</code>. Nos devuelve las primeras observaciones de cada una de las variables, también la <strong>clase</strong> de nuestro objeto, la cantidad de observaciones (o filas), que en este caso son 48, y la cantidad de variables (o columnas), que son 6. También nos indica la <strong>clase</strong> de cada una de las variables, que en este caso son <code>int</code> o <code>num</code>. Para entender bien las clases de datos y las diversas estructuras que los contienen tenemos que ir un casillero más atrás y explicar cómo es R organiza las cosas.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-24">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="n">precioAvisos</span><span class="p">)</span>
-</pre></div>
-<div id="cell-24" class="clipboard-copy-txt">str(precioAvisos) </div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&#39;data.frame&#39;:	48 obs. of  6 variables:
- $ BARRIOS   : chr  &#34;AGRONOMIA&#34; &#34;ALMAGRO&#34; &#34;BALVANERA&#34; &#34;BARRACAS&#34; ...
- $ USDm2_2013: num  1749 2034 1893 2229 2620 ...
- $ USDm2_2014: num  1458 1930 1818 1901 2544 ...
- $ USDm2_2015: num  1689 2086 1858 2390 2695 ...
- $ USDm2_2016: num  2057 1950 1834 1751 3287 ...
- $ USDm2_2017: num  1946 2299 1989 1920 3199 ...
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="retomando-nuestro-ejercicio-cuanto-aumentaron-las-viviendas">Retomando nuestro ejercicio: &#191;Cu&#225;nto aumentaron las viviendas?<a class="anchor-link" href="#retomando-nuestro-ejercicio-cuanto-aumentaron-las-viviendas">&#182;</a></h2><p>Ya estamos en condiciones de hacer un par de cálculos más y ver si efectivamente, como en la noticia principal, las propiedades aumentaron de precio en 2017. Para esto, no tenemos que hacer nada nuevo, usando el operador <code>$</code>, que nos deja elegir el vector de nuestro data.frame, solo tenemos que hacer una división.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-25">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">mean</span><span class="p">(</span><span class="n">precioAvisos</span><span class="err">$</span><span class="n">USDm2_2017</span><span class="p">)</span><span class="o">/</span><span class="n">mean</span><span class="p">(</span><span class="n">precioAvisos</span><span class="err">$</span><span class="n">USDm2_2016</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
-</pre></div>
-<div id="cell-25" class="clipboard-copy-txt">mean(precioAvisos$USDm2_2017)/mean(precioAvisos$USDm2_2016) - 1</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-0.0529905100846166
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Según nuestros datos, aumentaron 5,3% en 2017. Coincidimos con la nota, pero nos da un poco menos que lo esperado. Veamos ahora cuál fue la variación de los barrios: recuerden que R puede vectorizar la operación. Vamos a agregarle una nueva columna a nuestro data frame, combinando lo que aprendimos hoy</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-        
-        
-        <div class="CodeMirror cm-s-jupyter">
-        <div class="zeroclipboard-container">
-            <clipboard-copy for="cell-26">
-            <div>
-                <span class="notice" hidden>Copied!</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 16 16" version="1.1"  data-view-component="true" class="clipboard-copy-icon">
-                    <path fill="currentColor" fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-                    <path fill="currentColor" fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-                </svg>
-                </div>
-            </clipboard-copy>
-        </div>
-            <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">precioAvisos</span><span class="err">$</span><span class="n">variacion2017</span> <span class="o">&lt;-</span>  <span class="n">precioAvisos</span><span class="err">$</span><span class="n">USDm2_2017</span><span class="o">/</span><span class="n">precioAvisos</span><span class="err">$</span><span class="n">USDm2_2016</span> <span class="o">-</span> <span class="mi">1</span>
-<span class="n">View</span><span class="p">(</span><span class="n">precioAvisos</span><span class="p">)</span>
-</pre></div>
-<div id="cell-26" class="clipboard-copy-txt">precioAvisos$variacion2017 <-  precioAvisos$USDm2_2017/precioAvisos$USDm2_2016 - 1
-View(precioAvisos)</div>
-    
-        </div>
-    </div>
-
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table class="dataframe">
-<caption>A data.frame: 48 × 7</caption>
-<thead>
-	<tr><th scope=col>BARRIOS</th><th scope=col>USDm2_2013</th><th scope=col>USDm2_2014</th><th scope=col>USDm2_2015</th><th scope=col>USDm2_2016</th><th scope=col>USDm2_2017</th><th scope=col>variacion2017</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>AGRONOMIA        </td><td>1749.107</td><td>1457.974</td><td>1689.309</td><td>2056.743</td><td>1945.6065</td><td>-0.054035088</td></tr>
-	<tr><td>ALMAGRO          </td><td>2033.538</td><td>1930.081</td><td>2086.387</td><td>1950.488</td><td>2299.0683</td><td> 0.178714552</td></tr>
-	<tr><td>BALVANERA        </td><td>1893.371</td><td>1818.466</td><td>1857.900</td><td>1834.028</td><td>1989.1439</td><td> 0.084576584</td></tr>
-	<tr><td>BARRACAS         </td><td>2229.450</td><td>1901.401</td><td>2390.073</td><td>1751.239</td><td>1919.5811</td><td> 0.096127466</td></tr>
-	<tr><td>BELGRANO         </td><td>2619.973</td><td>2544.015</td><td>2695.148</td><td>3286.557</td><td>3199.2061</td><td>-0.026578132</td></tr>
-	<tr><td>BOCA             </td><td>1665.082</td><td>1405.424</td><td>1812.957</td><td>1459.604</td><td>1674.5640</td><td> 0.147272999</td></tr>
-	<tr><td>BOEDO            </td><td>2578.181</td><td>1810.027</td><td>2082.106</td><td>1562.627</td><td>1857.9378</td><td> 0.188983294</td></tr>
-	<tr><td>CABALLITO        </td><td>2263.397</td><td>2033.947</td><td>2153.961</td><td>2264.950</td><td>2512.9830</td><td> 0.109509072</td></tr>
-	<tr><td>CHACARITA        </td><td>2353.396</td><td>2083.826</td><td>2122.337</td><td>2110.865</td><td>2435.5774</td><td> 0.153829179</td></tr>
-	<tr><td>COGHLAN          </td><td>2656.169</td><td>2211.404</td><td>2234.113</td><td>2443.587</td><td>2608.7611</td><td> 0.067595124</td></tr>
-	<tr><td>COLEGIALES       </td><td>2456.690</td><td>2425.557</td><td>2345.988</td><td>2530.120</td><td>2820.5775</td><td> 0.114799767</td></tr>
-	<tr><td>CONSTITUCION     </td><td>1757.722</td><td>1615.515</td><td>1891.143</td><td>1669.477</td><td>1780.9270</td><td> 0.066757422</td></tr>
-	<tr><td>FLORES           </td><td>2012.048</td><td>1818.180</td><td>1941.132</td><td>1945.581</td><td>2052.0307</td><td> 0.054713752</td></tr>
-	<tr><td>FLORESTA         </td><td>1775.217</td><td>1850.633</td><td>1707.078</td><td>1698.672</td><td>1799.0546</td><td> 0.059094725</td></tr>
-	<tr><td>LINIERS          </td><td>1671.956</td><td>1583.798</td><td>1804.059</td><td>1778.948</td><td>1799.8994</td><td> 0.011777652</td></tr>
-	<tr><td>MATADEROS        </td><td>1509.202</td><td>1470.884</td><td>1460.970</td><td>1367.489</td><td>1526.9062</td><td> 0.116576231</td></tr>
-	<tr><td>MONSERRAT        </td><td>2211.122</td><td>2063.177</td><td>2114.658</td><td>2073.782</td><td>2195.5157</td><td> 0.058701266</td></tr>
-	<tr><td>MONTE CASTRO     </td><td>2131.067</td><td>1689.208</td><td>1818.925</td><td>1900.716</td><td>1926.7460</td><td> 0.013695028</td></tr>
-	<tr><td>NUEVA POMPEYA    </td><td>1733.885</td><td>1389.153</td><td>1435.563</td><td>1288.173</td><td>1520.7808</td><td> 0.180571806</td></tr>
-	<tr><td>NUÑEZ            </td><td>2860.343</td><td>2571.673</td><td>2766.086</td><td>3083.382</td><td>3099.7532</td><td> 0.005309427</td></tr>
-	<tr><td>PALERMO          </td><td>2969.914</td><td>2865.323</td><td>2855.663</td><td>3338.895</td><td>3440.1838</td><td> 0.030335920</td></tr>
-	<tr><td>PARQUE AVELLANEDA</td><td>1501.626</td><td>1450.182</td><td>3093.725</td><td>1382.946</td><td>1365.5237</td><td>-0.012597886</td></tr>
-	<tr><td>PARQUE CHACABUCO </td><td>1774.638</td><td>1787.546</td><td>1811.577</td><td>1743.468</td><td>2030.7709</td><td> 0.164787925</td></tr>
-	<tr><td>PARQUE CHAS      </td><td>2167.927</td><td>1938.503</td><td>2033.618</td><td>2103.709</td><td>2221.9000</td><td> 0.056182089</td></tr>
-	<tr><td>PARQUE PATRICIOS </td><td>1671.574</td><td>1502.252</td><td>1665.247</td><td>1796.961</td><td>1784.2635</td><td>-0.007066143</td></tr>
-	<tr><td>PATERNAL         </td><td>1979.661</td><td>1694.042</td><td>1560.521</td><td>1958.359</td><td>2062.8619</td><td> 0.053362407</td></tr>
-	<tr><td>PUERTO MADERO    </td><td>4808.052</td><td>4754.230</td><td>5348.426</td><td>5742.719</td><td>6070.3288</td><td> 0.057047785</td></tr>
-	<tr><td>RECOLETA         </td><td>2804.563</td><td>2656.299</td><td>2698.058</td><td>3068.577</td><td>3248.2453</td><td> 0.058550888</td></tr>
-	<tr><td>RETIRO           </td><td>2684.619</td><td>2658.874</td><td>2728.101</td><td>2836.720</td><td>3146.8744</td><td> 0.109335670</td></tr>
-	<tr><td>SAAVEDRA         </td><td>2142.902</td><td>2159.452</td><td>2079.747</td><td>2186.247</td><td>2361.0853</td><td> 0.079971871</td></tr>
-	<tr><td>SAN CRISTOBAL    </td><td>2323.973</td><td>1934.920</td><td>2624.382</td><td>1770.419</td><td>1916.3548</td><td> 0.082429874</td></tr>
-	<tr><td>SAN NICOLAS      </td><td>2518.413</td><td>2180.252</td><td>2102.118</td><td>2343.136</td><td>2431.0081</td><td> 0.037502030</td></tr>
-	<tr><td>SAN TELMO        </td><td>2224.907</td><td>1984.548</td><td>1991.912</td><td>2186.106</td><td>2390.8029</td><td> 0.093635362</td></tr>
-	<tr><td>VELEZ SARSFIELD  </td><td>1618.784</td><td>1559.800</td><td>1520.944</td><td>1599.940</td><td>1751.4902</td><td> 0.094722438</td></tr>
-	<tr><td>VERSALLES        </td><td>1483.271</td><td>1403.157</td><td>1488.054</td><td>1645.329</td><td>1625.8537</td><td>-0.011836759</td></tr>
-	<tr><td>VILLA CRESPO     </td><td>2260.153</td><td>2357.957</td><td>2254.580</td><td>2326.994</td><td>2474.0603</td><td> 0.063200309</td></tr>
-	<tr><td>VILLA DEL PARQUE </td><td>1935.495</td><td>1852.457</td><td>1859.115</td><td>2039.246</td><td>2197.6942</td><td> 0.077699205</td></tr>
-	<tr><td>VILLA DEVOTO     </td><td>2093.273</td><td>1904.191</td><td>2096.970</td><td>2083.992</td><td>2171.3600</td><td> 0.041923218</td></tr>
-	<tr><td>VILLA GRAL. MITRE</td><td>1934.169</td><td>1731.286</td><td>1928.124</td><td>1967.199</td><td>2022.8740</td><td> 0.028301429</td></tr>
-	<tr><td>VILLA LUGANO     </td><td>1182.779</td><td>1248.710</td><td>1172.980</td><td>1208.222</td><td>1152.4682</td><td>-0.046145371</td></tr>
-	<tr><td>VILLA LURO       </td><td>1788.873</td><td>1949.096</td><td>1671.023</td><td>1681.790</td><td>2001.4789</td><td> 0.190088455</td></tr>
-	<tr><td>VILLA ORTUZAR    </td><td>2126.561</td><td>2151.608</td><td>2062.152</td><td>2007.371</td><td>2390.9102</td><td> 0.191065358</td></tr>
-	<tr><td>VILLA PUEYRREDON </td><td>1894.086</td><td>1497.981</td><td>1630.813</td><td>1624.366</td><td>2061.2390</td><td> 0.268950101</td></tr>
-	<tr><td>VILLA REAL       </td><td>1669.844</td><td>1436.426</td><td>1463.709</td><td>1582.302</td><td>1726.4659</td><td> 0.091110358</td></tr>
-	<tr><td>VILLA RIACHUELO  </td><td>1489.534</td><td>1369.383</td><td>1212.377</td><td>1475.852</td><td>1311.8156</td><td>-0.111147102</td></tr>
-	<tr><td>VILLA SANTA RITA </td><td>2182.093</td><td>1948.102</td><td>2137.532</td><td>1848.100</td><td>1952.2045</td><td> 0.056330404</td></tr>
-	<tr><td>VILLA SOLDATI    </td><td>1721.077</td><td>1700.376</td><td>1611.692</td><td>2382.034</td><td> 872.7541</td><td>-0.633609689</td></tr>
-	<tr><td>VILLA URQUIZA    </td><td>2291.764</td><td>1980.756</td><td>2121.251</td><td>2439.630</td><td>2601.8794</td><td> 0.066505565</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Ordenen desde el visor a las variaciones por barrio ¿Qué pasó? Si miran con atención, el precio de los inmuebles en Villa Soldati, para nuestra muestra, cayó un 63%. Claro que esto tiene un impacto sobre el cálculo de la variación en 2017. No se preocupen, en el próximo capítulo, con la ayuda de <strong>tidyverse</strong> vamos a poder ver qué pasa con esto.</p>
-<p>¿Qué pueden decir sobre la heterogeneidad en los barrios? ¿Cuáles crecieron más y cuáles menos?</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="conclusiones">Conclusiones<a class="anchor-link" href="#conclusiones">&#182;</a></h2><p>Los datos públicos a los que accedimos nos permitieron responder las dos preguntas iniciales:</p>
-<ul>
-<li>En primer lugar, se observó un incremento en los precios de los inmuebles en USD durante el 2017 en comparación al 2016. Este aumento fue de aproximadamente 5,3%, según un promedio simple de las variaciones barriales.</li>
-<li>En segundo lugar, las variaciones en los precios exhiben una importante heterogeneidad regional, con algunos barrios ubicados en la parte noroeste (Villa Pueyrredón, Villa Ortúzar, Chacarita, Colegiales) y sudeste (Nueva Pompeya, Parque Chacabuco, Boedo) de la capital aumentando más que el resto.</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="ejercicios">Ejercicios<a class="anchor-link" href="#ejercicios">&#182;</a></h2><ul>
-<li>¿Cuál fue la variación de los precios de los inmuebles entre 2016 y 2015?</li>
-<li>¿Cuál fue la variación de los precios de los inmuebles entre 2017 y 2013?</li>
-<li>¿Cuál fue el barrio que más creció entre 2017 y 2013?</li>
-<li>¿Cuál fue el barrio que menos creció entre 2017 y 2013?</li>
-<li>¿Cual es el año en el que los precios de la ciudad fueron más altos? ¿Cuál fue ese valor?</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="extension-cargando-y-guardando-datos-de-otros-formatos">Extensi&#243;n: cargando y guardando datos de otros formatos<a class="anchor-link" href="#extension-cargando-y-guardando-datos-de-otros-formatos">&#182;</a></h2><h3 id="microsoft-excel">Microsoft Excel<a class="anchor-link" href="#microsoft-excel">&#182;</a></h3><p>Para bien o para mal, las planillas de Excel están por todos lados. Es importante saber cómo cargarlas a R y poder trabjar con ellas desde aquí. Para esto, vamos a necesitar la ayuda de un paquete de datos de R (en el Capítulo 2 pueden aprender qué es un paquete de datos) y <a href="https://github.com/martintinch0/CienciaDeDatosParaCuriosos/raw/master/data/child_mortality_0_5_year_olds_dying_per_1000_born.xlsx">descargar un archivo excel</a>. En el ejemplo suponemos que este archivo está disponible en la carpeta principal del proyecto y que ya tienen instalado el paquete <strong>readxl</strong>.</p>
-<div class="highlight"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">readxl</span><span class="p">)</span>
-<span class="n">datos</span> <span class="o">&lt;-</span> <span class="nf">read_excel</span><span class="p">(</span><span class="n">path</span> <span class="o">=</span> <span class="s">&#39;child_mortality_0_5_year_olds_dying_per_1000_born.xlsx&#39;</span><span class="p">,</span>
-                    <span class="n">sheet</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Si inspeccionan el archivo datos con <strong>str()</strong>, <strong>glimpse()</strong> o <strong>View()</strong> van a poder ver qué tipo de datos hay en lo que leímos desde R. Solo necesitamos pasarle dos argumentos: la dirección (path) y el número o nombre de hoja (en este caso, la primera). Esta función tiene muchos otros parámetros para adaptarnos al formato que tenga la hoja de excel. Pueden averiguar más preguntando de esta manera: <strong>?read_excel()</strong></p>
-<p>¿Cómo guardamos los datos a excel? Existen muchas alternativas para hacerlo, entre ellas la función write_xlsx que brinda el paquete <em>writexl</em> ¿Por qué? Porque otras alternativas tienen diveresas dependencias, como rJava, que requiere tener instalado Java versión 64 bits en la computadora y muchas veces no es fácil darse cuenta de esto. La instalación de este paquete solo debe hacerse una vez, como se explicará en los capítulos que siguen.</p>
-<div class="highlight"><pre><span></span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;writexl&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Una vez que lo instalaron, ya podemeos usar la función para escribir archivos xlsx luego de usar <strong>library(writexl)</strong>.</p>
-<div class="highlight"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">writexl</span><span class="p">)</span>
-<span class="nf">write_xlsx</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">datos</span> <span class="p">,</span><span class="n">path</span> <span class="o">=</span> <span class="s">&#39;Mortalidad Infaitl.xlsx&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<blockquote><p><strong>Nota</strong>: <a href="https://www.youtube.com/watch?v=kIID5FDi2JQ">Este video</a> resume en unos pocos minutos gran parte de lo que vamos a ver acá y es recomendable<a href="introduccion-practica-a-la-ciencia-de-datos.html#fnref1">↩</a></p>
-</blockquote>
-
-</div>
-</div>
 </div>
 </div>
 </div>
