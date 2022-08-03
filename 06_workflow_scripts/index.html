@@ -382,13 +382,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#naming-files" class="md-nav__link">
-    Naming files
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#running-code" class="md-nav__link">
     Running code
   </a>
@@ -921,13 +914,6 @@
       Tabla de contenidos
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#naming-files" class="md-nav__link">
-    Naming files
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#running-code" class="md-nav__link">
@@ -2018,49 +2004,11 @@ To give yourself more room to work, it's a great idea to use the script editor.
 Open it up either by clicking the File menu, and selecting New File, then R script, or using the keyboard shortcut Cmd/Ctrl + Shift + N.
 Now you'll see four panes:</p>
 <center>
-    <img src="https://d33wubrfki0l68.cloudfront.net/8a64bb047429d7ae0e2acae35c40e421e6439bf6/80e5d/diagrams/rstudio-editor.png" alt="img R" 
-     width="500" height="300" >
+    <img src="https://d33wubrfki0l68.cloudfront.net/8a64bb047429d7ae0e2acae35c40e421e6439bf6/80e5d/diagrams/rstudio-editor.png" alt="img R" >
 </center><p>The script editor is a great place to put code you care about.
 Keep experimenting in the console, but once you have written code that works and does what you want, put it in the script editor.
 RStudio will automatically save the contents of the editor when you quit RStudio, and will automatically load it when you re-open.
 Nevertheless, it's a good idea to save your scripts regularly and to back them up.</p>
-<h2 id="naming-files">Naming files<a class="anchor-link" href="#naming-files">&#182;</a></h2><p>Saving your code in a script requires creating a new file that you will need to name.
-It might be tempting to name this file <code>code.R</code> or <code>myscript.R</code>, but you should think a bit harder before choosing a name for your file.
-Three important principles for file naming are as follows:</p>
-<ol>
-<li>File names should be machine readable: Avoid spaces, punctuation, symbols, and accented character. Do not rely on case sensitivity to distinguish files. Make deliberate use of delimiters.</li>
-<li>File names should be human readable: Use file names that describe what is in the file.</li>
-<li>File names should play well with default ordering: Start file names with numbers that allow them to be sorted in the order they get used.</li>
-</ol>
-<p>Suppose you have the following files in a project folder.</p>
-
-<pre><code>run-first.R
-alternative model.R
-code for exploratory analysis.R
-finalreport.qmd
-FinalReport.qmd
-fig 1.png
-Figure_02.png
-model_first_try.R
-temp.txt
-
-</code></pre>
-<p>There are a variety of problems here: the files are misordered, file names contain spaces, there are two files with basically the same name but different capitalization (<code>finalreport</code> vs. <code>FinalReport</code>), and some file names don't reflect their contents (<code>run-first</code> and <code>temp</code>).</p>
-<p>Below is an alternative way of naming and organizing the same set of files.</p>
-
-<pre><code>01-load-data.R
-02-exploratory-analysis.R
-03-model-approach-1.R
-04-model-approach-2.R
-fig-01.png
-fig-02.png
-notes-on-report-draft.txt
-report-2022-03-20.qmd
-report-2022-04-02.qmd
-
-</code></pre>
-<p>Numbering and descriptive names that are similarly formatted allow for a more useful organization of the R scripts.
-Additionally, the figures are labelled similarly, the reports are distinguished by dates included in the file names, and <code>temp</code> is renamed to <code>notes-on-report-draft</code> to better describe its contents.</p>
 <h2 id="running-code">Running code<a class="anchor-link" href="#running-code">&#182;</a></h2><p>The script editor is also a great place to build up complex ggplot2 plots or long sequences of dplyr manipulations.
 The key to using the script editor effectively is to memorize one of the most important keyboard shortcuts: Cmd/Ctrl + Enter.
 This executes the current R expression in the console.
