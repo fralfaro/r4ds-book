@@ -2,162 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/01_introduction/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/02_introduction/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/03_%20data_visualisation/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/04_workflow_basics/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/05_data_transformation/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/06_workflow_scripts/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/07_exploratory_data_analysis/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/08_workflow_projects/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/09_introduction/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/10_tibbles/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/11_data_import/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/12_tidy_data/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/13_relational_data/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/14_strings/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/15_factors/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/16_dates_and%20_times/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/17_introduction/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/18_pipes/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/19_functions/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/20_vectors/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/21_iteration/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/22_introduction/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/23_model_basics/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/24_model_building/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/25_many_models/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/26_introduction/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/27_r_markdown/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/28_graphics_for_communication/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/29_R_Markdown_formats/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/30_r_markdown_workflow/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fralfaro/r4ds-book/__init__/</loc>
-         <lastmod>2022-08-03</lastmod>
+         <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
