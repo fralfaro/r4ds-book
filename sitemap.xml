@@ -101,6 +101,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/fralfaro/r4ds-book/19_functions/</loc>
+         <lastmod>2022-08-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/fralfaro/r4ds-book/20_vectors/</loc>
          <lastmod>2022-08-05</lastmod>
          <changefreq>daily</changefreq>
