@@ -1,4 +1,4 @@
-# Welcome 
+# Welcome to r4ds!
 
 <img src="https://d33wubrfki0l68.cloudfront.net/b88ef926a004b0fce72b2526b0b5c4413666a4cb/24a30/cover.png" alt="img R" 
      width="300" height="400"  align="right" >
@@ -18,32 +18,43 @@ If you'd like to **give back** please make a donation to [Kākāpō Recovery](ht
 Please note that R4DS uses a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this book, you agree to abide by its terms.
 
-## Acknowledgements {.unnumbered}
+> **Note**: This new documentation was developed by [fralfaro](https://github.com/fralfaro). You can find the repository in the following link: [fralfaro/r4ds-book](https://github.com/fralfaro/r4ds-book).
 
-R4DS is a collaborative effort and many people have contributed fixes and improvements via pull request: 
 
-adi pradhan (@adidoit), Andrea Gilardi (@agila5), Ajay Deonarine (@ajay-d),
-@AlanFeder, pete (@alonzi), Alex (@ALShum), Andrew Landgraf (@andland),
-@andrewmacfarland, Michael Henry (@aviast), Mara Averick (@batpigandme),
-Brent Brewington (@bbrewington), Bill Behrman (@behrman), Ben Herbertson (@benherbertson), 
-Ben Marwick (@benmarwick), Ben Steinberg (@bensteinberg), Brandon Greenwell (@bgreenwell),
-Brett Klamer (@bklamer), Christian Mongeau (@chrMongeau), Cooper Morris (@coopermor),
-Colin Gillespie (@csgillespie), Rademeyer Vermaak (@csrvermaak), Abhinav Singh (@curious-abhinav),
-Curtis Alexander (@curtisalexander), Christian G. Warden (@cwarden), Kenny Darrell (@darrkj),
-David Rubinger (@davidrubinger), David Clark (@DDClark), Derwin McGeary (@derwinmcgeary),
-Daniel Gromer (@dgromer), @djbirke, Devin Pastoor (@dpastoor), Julian During (@duju211),
-Dylan Cashman (@dylancashman), Dirk Eddelbuettel (@eddelbuettel), Edwin Thoen (@EdwinTh), 
-Ahmed El-Gabbas (@elgabbas), Eric Watt (@ericwatt), Erik Erhardt (@erikerhardt), Etienne B. Racine (@etiennebr),
-Everett Robinson (@evjrob), Flemming Villalona (@flemingspace), Floris Vanderhaeghe (@florisvdh), Garrick Aden-Buie (@gadenbuie), 
-Garrett Grolemund (@garrettgman), Josh Goldberg (@GoldbergData), bahadir cankardes (@gridgrad), Gustav W Delius (@gustavdelius),
-Hadley Wickham (@hadley), Hao Chen (@hao-trivago), Harris McGehee (@harrismcgehee), Hengni Cai (@hengnicai), Ian Sealy (@iansealy), 
-Ian Lyttle (@ijlyttle), Ivan Krukov (@ivan-krukov), Jacob Kaplan (@jacobkap), Jazz Weisman (@jazzlw), John D. Storey (@jdstorey), 
-Jeff Boichuk (@jeffboichuk), Gregory Jefferis (@jefferis), 蒋雨蒙 (@JeldorPKU), Jennifer (Jenny) Bryan (@jennybc), Jen Ren (@jenren),
-Jeroen Janssens (@jeroenjanssens), Jim Hester (@jimhester), JJ Chen (@jjchern), Joanne Jang (@joannejang), John Sears (@johnsears), 
-@jonathanflint, Jon Calder (@jonmcalder), Jonathan Page (@jonpage), Justinas Petuchovas (@jpetuchovas), Jose Roberto Ayala Solares (@jroberayalas), 
-Julia Stewart Lowndes (@jules32), Sonja (@kaetschap), Kara Woo (@karawoo), Katrin Leinweber (@katrinleinweber), Karandeep Singh (@kdpsingh),
-Kyle Humphrey (@khumph), Kirill Sevastyanenko (@kirillseva), @koalabearski, Kirill Müller (@krlmlr), Noah Landesberg (@landesbergn), @lindbrook,
-Mauro Lepore (@maurolepore), Mark Beveridge (@mbeveridge), Matt Herman (@mfherman), Mine Cetinkaya-Rundel (@mine-cetinkaya-rundel), 
-Matthew Hendrickson (@mjhendrickson), @MJMarshall, Mustafa Ascha (@mustafaascha), Nelson Areal (@nareal), Nate Olson (@nate-d-olson), Nathanael (@nateaff), Nick Clark (@nickclark1000), @nickelas, Nirmal Patel (@nirmalpatel), Nina Munkholt Jakobsen (@nmjakobsen), Jakub Nowosad (@Nowosad), Peter Hurford (@peterhurford), Patrick Kennedy (@pkq), Radu Grosu (@radugrosu), Ranae Dietzel (@Ranae), Robin Gertenbach (@rgertenbach), Richard Zijdeman (@rlzijdeman), Robin (@Robinlovelace), Emily Robinson (@robinsones), Rohan Alexander (@RohanAlexander), Romero Morais (@RomeroBarata), Albert Y. Kim (@rudeboybert), Saghir (@saghirb), Jonas (@sauercrowd), Robert Schuessler (@schuess), Seamus McKinsey (@seamus-mckinsey), @seanpwilliams, Luke Smith (@seasmith), Matthew Sedaghatfar (@sedaghatfar), Sebastian Kraus (@sekR4), Sam Firke (@sfirke), Shannon Ellis (@ShanEllis), @shoili, S’busiso Mkhondwane (@sibusiso16), @spirgel, Steven M. Mortimer (@StevenMMortimer), Stéphane Guillou (@stragu), Sergiusz Bleja (@svenski), Tal Galili (@talgalili), Tim Waterhouse (@timwaterhouse), TJ Mahr (@tjmahr), Thomas Klebel (@tklebel), Tom Prior (@tomjamesprior), Terence Teo (@tteo), Will Beasley (@wibeasley), @yahwes, Yihui Xie (@yihui), Yiming (Paul) Li (@yimingli), Hiroaki Yutani (@yutannihilation), @zeal626, Azza Ahmed (@zo0z)
+## Table of Contents
 
-R4DS is hosted by <https://www.netlify.com> as part of their support of open source software and communities.
+1. [Introduction](01_introduction)
+2. [Explore](02_introduction)
+    * [Introduction](02_introduction)
+    * [Data visualisation](03_%20data_visualisation)
+    * [Workflow: basics](04_workflow_basics)
+    * [Data transformation](05_data_transformation)
+    * [Workflow: scripts](06_workflow_scripts)
+    * [Exploratory Data Analysis](07_exploratory_data_analysis)
+    * [Workflow: projects](08_workflow_projects)
+3. [Wrangle](09_introduction)
+    * [Introduction](09_introduction)
+    * [Tibbles](10_tibbles)
+    * [Data import](11_data_import)
+    * [Tidy data](12_tidy_data)
+    * [Relational data](13_relational_data)
+    * [Strings](14_strings)
+    * [Factors](15_factors)
+    * [Dates and times](16_dates_and%20_times)
+4. [Program](17_introduction)
+    * [Introduction](17_introduction)
+    * [Pipes](18_pipes)
+    * [Functions](19_functions)
+    * [Vectors](20_vectors)
+    * [Iteration](21_iteration)
+5. [Model](22_introduction)
+    * [Introduction](22_introduction)
+    * [Model basics](23_model_basics)
+    * [Model building](24_model_building)
+    * [Many models](25_many_models)
+6. [Communicate](26_introduction)
+    * [Introduction](26_introduction)
+    * [R Markdown](27_r_markdown)
+    * [Graphics for communication](28_graphics_for_communication)
+    * [R Markdown formats](29_R_Markdown_formats)
+    * [R Markdown workflow](30_r_markdown_workflow)

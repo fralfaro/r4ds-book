@@ -7,8 +7,8 @@ site_author: Francisco Alfaro
 site_description: R for data science ( a book with mkdocs )
 
 # Repository
-repo_name: fralfaro/r4ds-book
-repo_url: https://github.com/fralfaro/r4ds-book
+repo_name: hadley/r4ds
+repo_url: https://github.com/hadley/r4ds/
 edit_uri: ''
 
 
@@ -69,17 +69,13 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/fralfaro
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.com/fralfaro
+      link: https://github.com/hadley
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/faam/
-    - icon: fontawesome/brands/kaggle
-      link: https://www.kaggle.com/faamds
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/@fralfaro
+      link: https://www.linkedin.com/in/hadleywickham/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/hadleywickham
     - icon: fontawesome/solid/globe
-      link: https://fralfaro.github.io/portfolio/
+      link: https://hadley.nz/
 
 # Plugins
 plugins:
@@ -90,10 +86,10 @@ plugins:
 
 # TOC
 nav:
-    - Home: index.md
+    - index.md
     - 01_introduction.ipynb
     - Explore:
-        - 02_introduction.ipynb
+        - Introduction: 02_introduction.ipynb
         - 03_ data_visualisation.ipynb
         - 04_workflow_basics.ipynb
         - 05_data_transformation.ipynb
@@ -101,7 +97,7 @@ nav:
         - 07_exploratory_data_analysis.ipynb
         - 08_workflow_projects.ipynb
     - Wrangle:
-        - 09_introduction.ipynb
+        - Introduction: 09_introduction.ipynb
         - 10_tibbles.ipynb
         - 11_data_import.ipynb
         - 12_tidy_data.ipynb
@@ -110,18 +106,18 @@ nav:
         - 15_factors.ipynb
         - 16_dates_and _times.ipynb
     - Program:
-        - 17_introduction.ipynb
+        - Introduction: 17_introduction.ipynb
         - 18_pipes.ipynb
-        - 19_functions.ipynb
+        - Functions: 19_functions.md
         - 20_vectors.ipynb
         - 21_iteration.ipynb
     - Model:
-        - 22_introduction.ipynb
+        - Introduction: 22_introduction.ipynb
         - 23_model_basics.ipynb
         - 24_model_building.ipynb
         - 25_many_models.ipynb
     - Communicate:
-        - 26_introduction.ipynb
+        - Introduction: 26_introduction.ipynb
         - 27_r_markdown.ipynb
         - 28_graphics_for_communication.ipynb
         - 29_R_Markdown_formats.ipynb
