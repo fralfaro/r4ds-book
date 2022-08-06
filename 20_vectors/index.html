@@ -2859,7 +2859,7 @@ You can see this behaviour in practice with <code>lobstr::obj_size()</code>:</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><code>y</code> doesn't take up 1,000x as much memory as <code>x</code>, because each element of <code>y</code> is just a pointer to that same string.
 A pointer is 8 bytes, so 1000 pointers to a 152 B string is 8 * 1000 + 152 = 8,144 B.</p>
-<h3 id="missing-values-sec-missing-values-vectors">Missing values {#sec-missing-values-vectors}<a class="anchor-link" href="#missing-values-sec-missing-values-vectors">&#182;</a></h3><p>Note that each type of atomic vector has its own missing value:</p>
+<h3 id="missing-values">Missing values<a class="anchor-link" href="#missing-values">&#182;</a></h3><p>Note that each type of atomic vector has its own missing value:</p>
 
 </div>
 </div>
@@ -3318,7 +3318,7 @@ Instead, it's safer to use the <code>is_*</code> functions provided by purrr, wh
 </tr>
 </tbody>
 </table>
-<h3 id="scalars-and-recycling-rules-sec-scalars-and-recycling-rules">Scalars and recycling rules {#sec-scalars-and-recycling-rules}<a class="anchor-link" href="#scalars-and-recycling-rules-sec-scalars-and-recycling-rules">&#182;</a></h3><p>As well as implicitly coercing the types of vectors to be compatible, R will also implicitly coerce the length of vectors.
+<h3 id="scalars-and-recycling-rules">Scalars and recycling rules<a class="anchor-link" href="#scalars-and-recycling-rules">&#182;</a></h3><p>As well as implicitly coercing the types of vectors to be compatible, R will also implicitly coerce the length of vectors.
 This is called vector <strong>recycling</strong>, because the shorter vector is repeated, or recycled, to the same length as the longer vector.</p>
 <p>This is generally most useful when you are mixing vectors and "scalars".
 I put scalars in quotes because R doesn't actually have scalars: instead, a single number is a vector of length 1.
