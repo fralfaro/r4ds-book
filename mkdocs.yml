@@ -37,7 +37,7 @@ extra_javascript:
 # Theme
 theme:
   name: material
-  language: es
+  language: en
   logo: images/logo.bmp
   favicon: images/logo_r.bmp
   features:

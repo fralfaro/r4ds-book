@@ -18,43 +18,4 @@ If you'd like to **give back** please make a donation to [Kākāpō Recovery](ht
 Please note that R4DS uses a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this book, you agree to abide by its terms.
 
-> **Note**: This new documentation was developed by [fralfaro](https://github.com/fralfaro). You can find the repository in the following link: [fralfaro/r4ds-book](https://github.com/fralfaro/r4ds-book).
-
-
-## Table of Contents
-
-1. [Introduction](01_introduction)
-2. [Explore](02_introduction)
-    * [Introduction](02_introduction)
-    * [Data visualisation](03_%20data_visualisation)
-    * [Workflow: basics](04_workflow_basics)
-    * [Data transformation](05_data_transformation)
-    * [Workflow: scripts](06_workflow_scripts)
-    * [Exploratory Data Analysis](07_exploratory_data_analysis)
-    * [Workflow: projects](08_workflow_projects)
-3. [Wrangle](09_introduction)
-    * [Introduction](09_introduction)
-    * [Tibbles](10_tibbles)
-    * [Data import](11_data_import)
-    * [Tidy data](12_tidy_data)
-    * [Relational data](13_relational_data)
-    * [Strings](14_strings)
-    * [Factors](15_factors)
-    * [Dates and times](16_dates_and%20_times)
-4. [Program](17_introduction)
-    * [Introduction](17_introduction)
-    * [Pipes](18_pipes)
-    * [Functions](19_functions)
-    * [Vectors](20_vectors)
-    * [Iteration](21_iteration)
-5. [Model](22_introduction)
-    * [Introduction](22_introduction)
-    * [Model basics](23_model_basics)
-    * [Model building](24_model_building)
-    * [Many models](25_many_models)
-6. [Communicate](26_introduction)
-    * [Introduction](26_introduction)
-    * [R Markdown](27_r_markdown)
-    * [Graphics for communication](28_graphics_for_communication)
-    * [R Markdown formats](29_R_Markdown_formats)
-    * [R Markdown workflow](30_r_markdown_workflow)
+> **Note**: This new documentation was developed by [fralfaro](https://github.com/fralfaro). You can find the repository at the following link: [fralfaro/r4ds-book](https://github.com/fralfaro/r4ds-book).

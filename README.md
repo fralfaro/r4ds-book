@@ -5,6 +5,7 @@
 
 This repository contains the source of R for Data Science book. The book is built using [mkdocs](https://www.mkdocs.org/).
 
+> **Note**: this repository is an alternative to the official [r4ds](https://github.com/hadley/r4ds) documentation.
 
 ## Repository Description
 
@@ -47,3 +48,4 @@ where:
 * `poetry.lock`: [poetry](https://python-poetry.org/) file for python dependencies.
 * `pyproject.toml`: [poetry](https://python-poetry.org/) file for python dependencies.
 * `README.md`: this file contains the repository name and some basic instructions.
+
