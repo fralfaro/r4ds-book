@@ -1,7 +1,7 @@
 # Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
 
 # Project information
-site_name: Home
+site_name: R for Data Science
 site_url: https://github.com/fralfaro/r4ds-book
 site_author: Francisco Alfaro
 site_description: R for data science ( a book with mkdocs )
@@ -50,7 +50,7 @@ theme:
     # Light mode
     - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: blue grey
+      primary: black
       accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
@@ -59,8 +59,7 @@ theme:
     # Dark mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: blue grey
-      accent: light blue
+      primary: black
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -86,7 +85,7 @@ plugins:
 
 # TOC
 nav:
-    - index.md
+    - Home: index.md
     - 01_introduction.ipynb
     - Explore:
         - Introduction: 02_introduction.ipynb
