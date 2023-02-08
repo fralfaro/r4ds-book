@@ -18,4 +18,4 @@ If you'd like to **give back** please make a donation to [Kākāpō Recovery](ht
 Please note that R4DS uses a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this book, you agree to abide by its terms.
 
-> **Note**: This new documentation was developed by [fralfaro](https://github.com/fralfaro). You can find the repository at the following link: [fralfaro/book_r4ds](https://github.com/fralfaro/book_r4ds).
+> **Note**: This new documentation was developed by [fralfaro](https://github.com/fralfaro). You can find the repository at the following link: [fralfaro/r4ds-book](https://github.com/fralfaro/r4ds-book).
